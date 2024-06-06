@@ -1,3 +1,23 @@
+/*-------Hero-section*/
+
+h1, h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    width: 50%;
+    height: auto;
+}
+
+
+
+
+
+
 /*-------Colours Pallet*/
 
 body {
@@ -13,7 +33,7 @@ header, footer {
 }
 
 h1, h2, h3 {
-    color: #8E6E53; /* Brown headings */
+    color: #70533b; /* Brown headings */
 }
 
 a {
