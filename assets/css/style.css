@@ -1,0 +1,40 @@
+/*-------Colours Pallet*/
+
+body {
+    background-color: #FFDD82; /* Beige background */
+    color: #4F4F4F; /* Dark grey text for readability */
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    background-color: #2b9348; /* Green headers and footers */
+    color: white;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #8E6E53; /* Brown headings */
+}
+
+a {
+    color: #3498DB; /* Blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C0392B; /* Red hover effect */
+}
+
+.button {
+    background-color: #F39C12; /* Orange buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #D35400; /* Darker orange on hover */
+}
+
