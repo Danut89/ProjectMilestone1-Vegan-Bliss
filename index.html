@@ -10,30 +10,44 @@
 </head>
 <body>
     <header>
-      <div class="container">
+      <div class="container" id="header-container">
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+          
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-4">Simple header</span>
+            <img src="assets/images/Green Simple Flat Minimalist Healthy Food Circle Logo.png" alt="logo" class="logo-image">
           </a>
 
           <ul class="nav nav-pills">
             <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Recipes</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Recipes
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Breakfast</a></li>
+                <li><a class="dropdown-item" href="#">Launch & Dinner</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Desserts & Beverages</a></li>
+              </ul>
+            </li>
             <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Lifestyle</a></li>
             <li class="nav-item"><a href="#" class="nav-link">About</a></li>
           </ul>
-    </header>
-    
+       </header>  
+  </header>
     <section>
-      <div class="col-md-6 jumbotrone">
-        <div class="h-100 p-5 bg-body-tertiary border rounded-3">
-          <h2>Add borders</h2>
-          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-          <button class="btn btn-outline-secondary" type="button">Example button</button>
+    <div class="container mt-5" id="jumbotrone-container">
+      <div class="row">
+        <div class="col-lg-12 d-lg-block">
+          <img src="assets/images/brooke-lark-HlNcigvUi4Q-unsplash (1).jpg" alt="food" width="800px; height=auto">
         </div>
-      </div>
+      </div> 
+      
+        
+      
+    </div>
+      
     </section>
       
     
