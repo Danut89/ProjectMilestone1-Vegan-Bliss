@@ -10,41 +10,59 @@
 </head>
 <body>
     <header>
-      <div class="container-fluid" id="header-container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            
-          </a>
-
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Recipes
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Breakfast</a></li>
-                <li><a class="dropdown-item" href="#">Launch & Dinner</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Desserts & Beverages</a></li>
-              </ul>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Lifestyle</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-          </ul>
-       </header>  
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid" id="header-container">
+          <a class="navbar-brand" href="#"><img class="logo-image" src="assets/images/att.MizzBtKJS-qZ7K4qF4bifdhV7Gei97aLA3iq7DF6RTc.png" alt="logo" width="85px" height="auto"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Recipes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Breakfast</a></li>
+                  <li><a class="dropdown-item" href="#">Launch & Dinner</a></li>
+                  <li><a class="dropdown-item" href="#">Dessert & Bevereges</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <div class="nav-button">
+              <button class="btn btn-warning" type="sign up">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>  
   </header>
   <section>
-    <div class="container-fluid mt-5" id="jumbotrone-container">
+    <div class="container mt-3" id="hero-container">
       <div class="row">
-        <div class="col">
-          <img src="assets/images/victoria-shes-4MEL9XS-3JQ-unsplash.jpg" class="img-fluid rounded" alt="food">
+        <div class="col jumbotrone-parent-container">
+          <h1>Welcome to Vegan Bliss</h1>
+          <div class="col-md-6 jumbotrone-container">
+            <div class="h-100 p-5  border rounded-3">
+              <h2>Add borders</h2>
+              <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
+              <button class="btn btn-outline-secondary" type="button">Example button</button>
+            </div>
+          </div>
+          <img src="assets/images/ai-generated-8758194_1920.jpg" class="img-fluid rounded" alt="food">
         </div>
       </div> 
     </div>
-    <div class="container-fluid mt-3" id="feature-container">
+    <div class="container mt-3" id="feature-container">
       <div class="row">
         <div class="col">
           <div class="row row-cols-1 row-cols-md-3 g-4">
