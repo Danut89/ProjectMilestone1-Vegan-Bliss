@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
 
 
 body, html {
@@ -7,24 +8,36 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color:#fff;
+    background-color: #D7F3FF;
+}
+
+.section-title {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 3rem;
 }
 
 /*------------------Header Section*/
 
+#header-container {
+    background: #64C25E;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    height: auto;
+}
+
 .navbar {
     padding-top: 0rem;
-    
 }
-.logo-image 
-{
+
+.logo-image {
     border-radius: 15px;
 }
 
 .logo-text {
     font-size: 40px;
     font-style: oblique;
-    font-family: Gwendolyn;
+    font-family: Gwendolyn, sans-serif;
     font-weight: 700;
 }
 
@@ -33,30 +46,25 @@ body, html {
 }
 
 .nav-link {
-    color: red;
+    color: black;
 }
 
-
-
-
-#header-container {
-    background: #0DD745;
-    padding: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
-    height: auto;
-   
+.nav-link:hover {
+    color: #008FCA;
 }
 
+.nav-link:active {
+    border-bottom: 2px solid #100de4;
+}
+
+.btn-warning:hover {
+    background-color: #68EDCB;
+    border-color: #100de4;
+}
 /*-----------------Hero-section */
 
 #hero-container {
     margin-bottom: 30px;
-}
-
-.welcome-title {
-    text-align: center;
-    margin-bottom: 25px;
-    color: #ffc107;
 }
 
 .jumbotrone-parent-container {
@@ -65,20 +73,42 @@ body, html {
 
 .jumbotrone-container {
     position: absolute;
-    bottom: 25%;
+    bottom: 0%;
     right: 25%;
-    background-color: rgba(131, 211, 196, .4);
+    background-color: rgba(221, 248, 215, .5);
     text-align: center;
 }
 
-/*-----------------Fetaure Section*/
+.btn-info:hover {
+    background-color: #68EDCB;
+    border-color: #100de4;
+}
+
+
+/*-----------------Fetaure-Recipes Section*/
 
 .feature-title {
     text-align: center;
 }
 
+.fa-utensils {
+    margin-right: 10px;
+    color: #0DD745;
+}
 
+.card-title, .card-text {
+    font-style: Josefin Sans;
+}
 
+.btn-succes:hover {
+    background-color: #68EDCB;
+    border-color: #100de4;
+
+}
+
+.card-body {
+    background-color: #DDF8D7;
+}
 
 
 
@@ -100,17 +130,25 @@ body, html {
     padding-left: 10px; 
     margin-right: auto; 
     margin-left: auto; 
-}
-
-.mail-container {
     text-align: center;
     margin-top: 10px;
 }
 
 .content {
-    background-color: #f0f0f0;
+    background-color: #64C25E;
+    border-radius: 10px;
 }
 
-collout {
-    width: 10px;
+
+
+
+/*-----------------Dividers*/
+
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
