@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+
+
+
 body, html {
     margin: 0;
     padding: 0;
@@ -17,9 +21,21 @@ body, html {
     border-radius: 15px;
 }
 
-.nav-item {
-  font-size: larger;
+.logo-text {
+    font-size: 40px;
+    font-style: oblique;
+    font-family: Gwendolyn;
+    font-weight: 700;
 }
+
+.nav-item {
+  font-size: medium;
+}
+
+.nav-link {
+    color: red;
+}
+
 
 
 
@@ -37,9 +53,10 @@ body, html {
     margin-bottom: 30px;
 }
 
-h1 {
+.welcome-title {
     text-align: center;
     margin-bottom: 25px;
+    color: #ffc107;
 }
 
 .jumbotrone-parent-container {
@@ -48,7 +65,52 @@ h1 {
 
 .jumbotrone-container {
     position: absolute;
-    bottom: 30px;
-    right: 150px;
-    background-color: rgba(241, 109, 107, .7)
+    bottom: 25%;
+    right: 25%;
+    background-color: rgba(131, 211, 196, .4);
+    text-align: center;
+}
+
+/*-----------------Fetaure Section*/
+
+.feature-title {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*-----------------Lifestyle Section*/
+
+
+
+
+
+
+
+
+/*-----------------Mail-list Section*/
+
+.mail-container {
+    width: 100%; 
+    padding-right: 10px; 
+    padding-left: 10px; 
+    margin-right: auto; 
+    margin-left: auto; 
+}
+
+.mail-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.content {
+    background-color: #f0f0f0;
+}
+
+collout {
+    width: 10px;
 }
