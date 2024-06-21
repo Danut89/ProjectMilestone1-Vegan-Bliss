@@ -9,12 +9,23 @@ body, html {
     width: 100%;
     height: 100%;
     background-color: #D7F3FF;
+    min-height: 100vh;
 }
 
 .section-title {
     text-align: center;
     font-family: Roboto;
     font-size: 3rem;
+        animation-duration: 3s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+      
+}
+
+.title-slogan {
+    text-align: center;
+    font-family: Roboto;
 }
 
 /*------------------Header Section*/
@@ -57,9 +68,8 @@ body, html {
     border-bottom: 2px solid #100de4;
 }
 
-.btn-warning:hover {
+.btn-info:hover {
     background-color: #68EDCB;
-    border-color: #100de4;
 }
 /*-----------------Hero-section */
 
@@ -67,29 +77,26 @@ body, html {
     margin-bottom: 30px;
 }
 
-.jumbotrone-parent-container {
+.title-container {
     position: relative;
 }
 
 .jumbotrone-container {
     position: absolute;
-    bottom: 0%;
+    bottom: 120px;
     right: 25%;
-    background-color: rgba(221, 248, 215, .5);
+    background-color: rgba(100, 194, 94, .5);
     text-align: center;
 }
 
 .btn-info:hover {
     background-color: #68EDCB;
-    border-color: #100de4;
 }
 
 
 /*-----------------Fetaure-Recipes Section*/
 
-.feature-title {
-    text-align: center;
-}
+
 
 .fa-utensils {
     margin-right: 10px;
@@ -113,7 +120,7 @@ body, html {
 
 
 
-/*-----------------Lifestyle Section*/
+/*-----------------Feature Section w*/
 
 
 
@@ -151,4 +158,59 @@ body, html {
     border: solid rgba(0, 0, 0, .15);
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+
+
+/*-----------------Animation hero section*/
+
+.title-container {
+    background-image: url('path/to/your/hero-image.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    animation: fadeIn 2s ease-in-out; /* Apply the fade-in animation */
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.title-container #welcome-title {
+    font-size: 3em;
+    margin: 0;
+    animation: slideInFromLeft 2s ease-out; /* Apply the slide-in animation */
+}
+.title-container .title-slogan {
+    font-size: 1.5em;
+    margin-top: 10px;
+    animation: slideInFromRight 2s ease-out; /* Apply the slide-in animation */
+}
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
