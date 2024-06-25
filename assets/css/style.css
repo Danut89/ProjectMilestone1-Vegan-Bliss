@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
+
 
 
 body, html {
@@ -15,12 +17,7 @@ body, html {
 .section-title {
     text-align: center;
     font-family: Roboto;
-    font-size: 3rem;
-        animation-duration: 3s;
-        animation-name: slidein;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-      
+    font-size: 3rem; 
 }
 
 .title-slogan {
@@ -28,14 +25,17 @@ body, html {
     font-family: Roboto;
 }
 
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+
 /*------------------Header Section*/
 
-#header-container {
-    background: #64C25E;
-    padding: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
-    height: auto;
-}
 
 .navbar {
     padding-top: 0rem;
@@ -48,53 +48,125 @@ body, html {
 .logo-text {
     font-size: 40px;
     font-style: oblique;
-    font-family: Gwendolyn, sans-serif;
-    font-weight: 700;
+    font-family: Roboto;
+    font-weight: 400;
 }
 
 .nav-item {
-  font-size: medium;
+  font-size: larger;
+  margin-left: 50px;
+  font-family: Open Sans;;
 }
 
-.nav-link {
-    color: black;
+.nav-item, .nav-link {
+    color: #B03A2E;
+    font-weight: 700;
 }
 
 .nav-link:hover {
-    color: #008FCA;
+    color: #000;
 }
 
 .nav-link:active {
-    border-bottom: 2px solid #100de4;
+    border-bottom: 2px solid #0DD745;
 }
 
-.btn-info:hover {
-    background-color: #68EDCB;
+.btn-danger {
+    font-family: Open Sans;
+    font-weight: 500;
+}
+
+
+.btn-danger:hover {
+    background-color: #000;
+    border-color: #0DD745;
 }
 /*-----------------Hero-section */
 
-#hero-container {
-    margin-bottom: 30px;
+.hero-section {
+    margin: 0 auto;
 }
+
+
+.hero-container {
+    margin-bottom: 30px;
+    height: 600px;
+    display: flex;
+}
+
+
 
 .title-container {
     position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .jumbotrone-container {
     position: absolute;
-    bottom: 120px;
-    right: 25%;
-    background-color: rgba(100, 194, 94, .5);
+    bottom: 25%;
+    right: 20%;
+    background-color: rgba(215, 243, 255, 0.7);
     text-align: center;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.jumbo-text {
+    text-transform: uppercase;
+    font-family: Open Sans;
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.jumbotrone-container p {
+    font-family: Open Sans;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: large;
 }
 
 .btn-info:hover {
     background-color: #68EDCB;
 }
 
+/*------------------Why be vegan Section*/
 
-/*-----------------Fetaure-Recipes Section*/
+.bg-container {
+    background-color: transparent;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.img-overlay {
+    
+}
+
+.second-title {
+    margin-top: 5px;
+}
+
+h5 {
+    background-color: #F39C12;
+    height: 60px;
+    width: 200px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.nature-img, .elefants-img, .health-img {
+    height: 400px;
+    margin-top: 15px;
+}
+
+
+
+
+/*-----------------Feature-Recipes Section*/
 
 
 
@@ -120,7 +192,7 @@ body, html {
 
 
 
-/*-----------------Feature Section w*/
+
 
 
 
@@ -163,54 +235,3 @@ body, html {
 
 
 /*-----------------Animation hero section*/
-
-.title-container {
-    background-image: url('path/to/your/hero-image.jpg'); /* Replace with your image path */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    animation: fadeIn 2s ease-in-out; /* Apply the fade-in animation */
-}
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-.title-container #welcome-title {
-    font-size: 3em;
-    margin: 0;
-    animation: slideInFromLeft 2s ease-out; /* Apply the slide-in animation */
-}
-.title-container .title-slogan {
-    font-size: 1.5em;
-    margin-top: 10px;
-    animation: slideInFromRight 2s ease-out; /* Apply the slide-in animation */
-}
-@keyframes slideInFromLeft {
-    from {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-@keyframes slideInFromRight {
-    from {
-        transform: translateX(100%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
