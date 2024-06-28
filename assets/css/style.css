@@ -3,7 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
 
 body, html {
     margin: 0;
@@ -18,11 +26,13 @@ body, html {
     text-align: center;
     font-family: Roboto;
     font-size: 3rem; 
+    text-shadow: 1px 1px 1px #fff;
 }
 
 .title-slogan {
     text-align: center;
     font-family: Roboto;
+    text-shadow: 1px 1px 1px #fff;
 }
 
 .title-container {
@@ -36,6 +46,9 @@ body, html {
 
 /*------------------Header Section*/
 
+#header-container {
+    background-color: #70e26a;
+}
 
 .navbar {
     padding-top: 0rem;
@@ -55,7 +68,7 @@ body, html {
 .nav-item {
   font-size: larger;
   margin-left: 50px;
-  font-family: Open Sans;;
+  font-family: Open Sans;
 }
 
 .nav-item, .nav-link {
@@ -71,6 +84,18 @@ body, html {
     border-bottom: 2px solid #0DD745;
 }
 
+.login-button {
+    background-color: #F8B900;
+    font-family: Open Sans;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.login-button:hover {
+    background-color:#fff;
+    border-color: #000;
+}
+
 .btn-danger {
     font-family: Open Sans;
     font-weight: 500;
@@ -79,7 +104,17 @@ body, html {
 
 .btn-danger:hover {
     background-color: #000;
-    border-color: #0DD745;
+    border-color: #fff;
+}
+
+
+hr {
+   border: none;
+   border-top: 3px double #333;
+   color: #333;
+   overflow: visible;
+   text-align: center;
+   height: 5px;
 }
 /*-----------------Hero-section */
 
@@ -90,7 +125,7 @@ body, html {
 
 .hero-container {
     margin-bottom: 30px;
-    height: 600px;
+    height: 100vh;
     display: flex;
 }
 
@@ -120,7 +155,13 @@ body, html {
     font-family: Open Sans;
     text-decoration: underline;
     font-size: x-large;
+    text-shadow: 1px 1px 1px #fff;
 }
+
+.jumbo-subtext {
+    font-weight: 500;
+}
+
 
 .jumbotrone-container p {
     font-family: Open Sans;
@@ -129,65 +170,59 @@ body, html {
     font-size: large;
 }
 
-.btn-info:hover {
-    background-color: #68EDCB;
-}
 
-/*------------------Why be vegan Section*/
-
-.bg-container {
-    background-color: transparent;
-    padding-top: 3px;
-    padding-bottom: 20px;
-    margin-top: 30px;
-}
-
-.img-overlay {
-    
-}
-
-.second-title {
-    margin-top: 5px;
-}
+/*------------------Why go vegan Section*/
 
 h5 {
-    background-color: #F39C12;
     height: 60px;
     width: 200px;
     margin: 0 auto;
     align-content: center;
-}
-
-.nature-img, .elefants-img, .health-img {
-    height: 400px;
-    margin-top: 15px;
+    
 }
 
 
+.banner {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(120deg, orange 30%, #0DD745);
+    border-radius: 10px;
+    margin-left: 0px;
+}
 
+.banner-title {
+    padding-top: 30px;
+    padding-left: 10px;
+    font-family: Roboto;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px black;
+}
+
+.card-title {
+    font-family: Open Sans;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-body {
+    background-color: #F8B900;
+}
+
+.btn-succes:hover {
+    background-color: #F8B900;
+}
 
 /*-----------------Feature-Recipes Section*/
 
 
 
-.fa-utensils {
-    margin-right: 10px;
-    color: #0DD745;
-}
-
-.card-title, .card-text {
-    font-style: Josefin Sans;
-}
-
-.btn-succes:hover {
-    background-color: #68EDCB;
-    border-color: #100de4;
-
-}
-
-.card-body {
-    background-color: #DDF8D7;
-}
 
 
 
@@ -201,22 +236,56 @@ h5 {
 
 
 
-/*-----------------Mail-list Section*/
+/*-----------------Mail-join Section*/
 
 .mail-container {
-    width: 100%; 
-    padding-right: 10px; 
-    padding-left: 10px; 
-    margin-right: auto; 
-    margin-left: auto; 
+    background-image: url(../images/nadine-primeau-l5Mjl9qH8VU-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.first-title {
+    font-family: Roboto;
+    font-size: 50px;
+    letter-spacing: 2px;
     text-align: center;
-    margin-top: 10px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.content-container {
+    background-color: rgba(215, 243, 255, 0.5);
+    width: 50%;
+    border: 2px solid salmon;
+    font-weight: 500;
 }
 
 .content {
-    background-color: #64C25E;
-    border-radius: 10px;
+    font-family: Open Sans;
+    font-size: x-large;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
 }
+
+.email-input {
+    display: flexbox;
+    justify-content: center;
+}
+
+.footer_newsletter_form {
+    display: flex;
+    justify-content: center;
+}
+
+.email-button {
+    text-transform: uppercase;
+}
+  
+
+
 
 
 
@@ -225,7 +294,7 @@ h5 {
 
 .b-example-divider {
     width: 100%;
-    height: 3rem;
+    height: 2rem;
     background-color: rgba(0, 0, 0, .1);
     border: solid rgba(0, 0, 0, .15);
     border-width: 1px 0;
@@ -234,4 +303,27 @@ h5 {
 
 
 
-/*-----------------Animation hero section*/
+/*-----------------Footer section*/
+
+.footer-box {
+    height: 80px;
+    overflow: hidden;
+    background-color: #70e26a;
+}
+
+.social-network {
+    text-align: center;
+}
+
+.social-network li {
+    display: inline;
+}
+
+.social-network i {
+    font-size: 150%;
+    margin: 5px;
+    padding: 15px;
+    color: #dc3545;
+}
+
+
