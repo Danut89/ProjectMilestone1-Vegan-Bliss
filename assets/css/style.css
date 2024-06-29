@@ -239,7 +239,7 @@ h5 {
 /*-----------------Mail-join Section*/
 
 .mail-container {
-    background-image: url(../images/nadine-primeau-l5Mjl9qH8VU-unsplash\ \(1\).jpg);
+    background-image: url(../images/victoria-shes-wSh0Exrb62g-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -309,6 +309,7 @@ h5 {
     height: 80px;
     overflow: hidden;
     background-color: #70e26a;
+    margin-top: 25px;
 }
 
 .social-network {
@@ -325,5 +326,83 @@ h5 {
     padding: 15px;
     color: #dc3545;
 }
+
+/*-----------------Recipes category page*/
+
+.categories-title {
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px white;
+}
+
+#box-img {
+font-family: Roboto;
+font-size: 70px;
+font-weight: 400;
+letter-spacing: 10px;
+text-transform: uppercase;
+text-shadow: 1px 1px 1px white;
+
+height: 300px;
+background: linear-gradient(120deg, orange 30%, #0DD745);
+margin-top: 30px;
+margin-bottom: 30px;
+background-image: url(../images/brooke-lark-atzWFItRHy8-unsplash.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;;
+}
+
+.box-1, .box-2, .box-3 {
+    font-family: Open Sans;
+    font-size: xx-large;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-top: 170px;
+    height: 250px;
+    width: 75%;
+    background-color: orange;
+    margin-top: 25px;
+    color:#000;
+    text-shadow: 2px 1px 1px white;
+}
+
+.box-1 {
+    background-image: url(../images/jannis-brandt-8manzosDSGM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-2 {
+    background-image: url(../images/victoria-shes-90Z4qIxWc8Y-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box-3 {
+    background-image: url(../images/brooke-lark-qdyBKWSzpSI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boxex-3 {
+    margin-left: 40px;
+}
+
+.recipe-link {
+    color: #000;
+}
+
+.recipe-link:hover {
+    background-color: antiquewhite;
+}
+
 
 
