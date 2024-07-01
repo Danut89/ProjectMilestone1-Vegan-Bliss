@@ -25,17 +25,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link" href="categories.html" target="_blank">
                   Recipes
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Breakfast</a></li>
-                  <li><a class="dropdown-item" href="#">Launch & Dinner</a></li>
-                  <li><a class="dropdown-item" href="#">Dessert & Bevereges</a></li>
-                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Features</a>
@@ -53,46 +48,66 @@
     </header>
 
 
+    <div class="grid  category-container">
+        <div class="g-col-6 g-col-md-4 text-center title-box mb-3">Breakfast</div>
+            <ul class="rounded list-container-breakfast">
+                <li><a href="veganpancakes.html">See Recipe </a>Vegan Pancakes</li>
+                <li>Avocado Toast</li>
+                <li>Chia Seed Pudding</li>
+                <li>Smoothie Bowl</li>
+                <li>Tofu Scramble</li>
+                <li>Vegan Overnight Oats</li>
+                <li>Breakfast Burrito</li>
+                <li>Acai Bowl</li>
+                <li>Vegan French Toast</li>
+                <li>Vegan Muffins</li>
+                <div class=img-container-a>
+                    <img src="assets/images/breakfast-4234067_640.jpg" class="img-fluid rounded list-img-a" alt="vegan food">
+                </div>
+            </ul>
+        
+        
+        <hr>
+        <div class="g-col-6 g-col-md-4 text-center title-box mb-3">Launch & Dinner</div>
+        <ul class="rounded list-container-launch">
+            <li>Quinoa and Black Bean Salad</li>
+            <li>Vegan Buddha Bowl</li>
+            <li>Vegan Wraps</li>
+            <li>Lentil Soup</li>
+            <li>Chickpea Salad Sandwich</li>
+            <li>Vegan Stir-Fry</li>
+            <li>Stuffed Bell Peppers</li>
+            <li>Vegan Shepherd’s Pie</li>
+            <li>Eggplant Parmesan</li>
+            <li>Vegan Tacos</li>
+            <div class="img-container-b">
+                <img src="assets/images/table-setting-791148_640.jpg" class="img-fluid rounded list-img-b" alt="table">
+            </div>
+        </ul>
+        <hr>
+        <div class="g-col-6 g-col-md-4 text-center title-box mb-3">Dessert & Drinks</div>
+        <ul class="rounded list-container-dessert">
+            <li>Vegan Chocolate Cake</li>
+            <li>Coconut Macaroons</li>
+            <li>Vegan Cheesecake</li>
+            <li>Banana Bread</li>
+            <li>Chia Pudding</li>
+            <li>Green Smoothie</li>
+            <li>Golden Turmeric Latte/li>
+            <li>Berry Smoothie</li>
+            <li>Vegan Hot Chocolate</li>
+            <li>Mango Lassi</li>
+            <div class="img-container-b">
+                <img src="assets/images/elmer-canas-HOCn6RttuOM-unsplash.jpg" class="img-fluid rounded list-img-b" alt="table">
+            </div>
+        </ul>
+      </div>
 
 
 
-    <!--Subscribe section with email input and subscribe button-->
 
-    <section class="container mail-container">
-        <div class="p-3 rounded-3">
-          <h2 class="first-title">Why not join our mailing list?</h2>
-          <div class="content-container mx-auto rounded">
-            <p class="content">Get our latest promotions,  new<br> products  and offers  straight to your inbox!</p>
-          </div>
-          <div class="mail-form">
-                  <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="footer_newsletter_form">
-                    <div class="form_wrapper mt-4">
-                      <input required="" type="email" value="" name="EMAIL" class="required rounded border email mx-2" id="mce-EMAIL" placeholder="Enter your email">
-                      <p class="alert-inline" style="display: none;"></p>
-                      <button class="btn btn-danger email-button" type="submit" name="subscribe" id="embedded-subscribe">
-                        Subscribe
-                        </button>
-                    </div>
-                  </form>
-               </div>
-          
-        </div>
-      </section>
-  
-      <section>
-          About section
-      </section>
-      
-       <!--Footer Section-->
-  
-      <footer class="footer-box">
-       
-          <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-           
-          </div>
+
+    <footer class="footer-box">
         <ul class="social-network">
           <span class=" mb-md-0">© 2024 Vegan Bliss, Inc</span>
           <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
@@ -101,6 +116,8 @@
           <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
         </ul>
       </footer>
+  
+  
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
   </html>
