@@ -18,7 +18,7 @@ body, html {
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #D7F3FF;
+    background-color: #fff;
     min-height: 100vh;
 }
 
@@ -26,13 +26,11 @@ body, html {
     text-align: center;
     font-family: Roboto;
     font-size: 3rem; 
-    text-shadow: 1px 1px 1px #fff;
 }
 
 .title-slogan {
     text-align: center;
     font-family: Roboto;
-    text-shadow: 1px 1px 1px #fff;
 }
 
 .title-container {
@@ -47,7 +45,12 @@ body, html {
 /*------------------Header Section*/
 
 #header-container {
-    background-color: #70e26a;
+    background-color: #4CAF50;
+}
+
+.navbar-expand-lg {
+    height: 80px;
+    padding-top: 15px;
 }
 
 .navbar {
@@ -63,6 +66,7 @@ body, html {
     font-style: oblique;
     font-family: Roboto;
     font-weight: 400;
+    color: #fff;
 }
 
 .nav-item {
@@ -72,7 +76,7 @@ body, html {
 }
 
 .nav-item, .nav-link {
-    color: #B03A2E;
+    color: #FFD700;
     font-weight: 700;
 }
 
@@ -81,18 +85,18 @@ body, html {
 }
 
 .nav-link:active {
-    border-bottom: 2px solid #0DD745;
+    border-bottom: 2px solid #FFD700;
 }
 
 .login-button {
-    background-color: #F8B900;
-    font-family: Open Sans;
+    background-color: #fff;
+    font-family: Roboto;
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .login-button:hover {
-    background-color:#fff;
+    background-color: #FFD700;
     border-color: #000;
 }
 
@@ -108,26 +112,25 @@ body, html {
 }
 
 
-hr {
-   border: none;
-   border-top: 3px double #333;
-   color: #333;
-   overflow: visible;
-   text-align: center;
-   height: 5px;
-}
 /*-----------------Hero-section */
 
+
+
 .hero-section {
-    margin: 0 auto;
+    background-image: url(../images/olena-bohovyk-Z9z7l9ByRNE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 
 .hero-container {
     margin-bottom: 30px;
-    height: 100vh;
+    height: 68vh;
     display: flex;
 }
+
 
 
 
@@ -140,11 +143,14 @@ hr {
     margin-top: 20px;
 }
 
+
+/*-------------callout to action container*/
+
 .jumbotrone-container {
     position: absolute;
     bottom: 25%;
-    right: 20%;
-    background-color: rgba(182, 251, 255, 0.7);
+    right: 25%;
+    background-color: rgba(255, 215, 0, 0.6);
     text-align: center;
     margin-right: 20px;
     padding: 10px;
@@ -155,11 +161,11 @@ hr {
     font-family: Open Sans;
     text-decoration: underline;
     font-size: x-large;
-    text-shadow: 1px 1px 1px #fff;
 }
 
 .jumbo-subtext {
-    font-weight: 500;
+    font-weight: 600;
+    font-size: x-large;
 }
 
 
@@ -185,7 +191,7 @@ h5 {
 .banner {
     width: 100%;
     height: 100px;
-    background: linear-gradient(120deg, #F9F871 30%, #A4FFCC);
+    background: #98FF98;
     border-radius: 10px;
     margin-left: 0px;
 }
@@ -212,7 +218,7 @@ h5 {
 }
 
 .card-body {
-    background-color: #C7FF9E;
+    background-color: rgba(255, 215, 0, 0.8);
 }
 
 .btn-succes:hover {
@@ -239,7 +245,8 @@ h5 {
 /*-----------------Mail-join Section*/
 
 .mail-container {
-    background-color: #b6744c;
+    background-color: rgba(255, 215, 0, 0.8);
+    ;
     border-radius: 10px;
     margin-top: 30px;
 }
@@ -250,11 +257,10 @@ h5 {
     letter-spacing: 2px;
     text-align: center;
     text-transform: capitalize;
-    color: #fff;
 }
 
 .content-container {
-    background-color: rgba(215, 243, 255, 0.7);
+    background-color: rgba(152, 255, 152, 0.6);
     width: 50%;
     border: 2px solid salmon;
     font-weight: 500;
@@ -282,31 +288,23 @@ h5 {
     text-transform: uppercase;
 }
   
-
-
-
-
-
-
 /*-----------------Dividers*/
 
 .b-example-divider {
     width: 100%;
-    height: 2rem;
+    height: 1rem;
     background-color: rgba(0, 0, 0, .1);
     border: solid rgba(0, 0, 0, .15);
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
-
-
 /*-----------------Footer section*/
 
 .footer-box {
     height: 80px;
     overflow: hidden;
-    background-color: #70e26a;
+    background-color: #4CAF50;
     margin-top: 25px;
 }
 
