@@ -13,7 +13,6 @@
 <body>
 
      <!--Header Navigation with links from bootstrap 5.3-->
-
      <header>
         <div id="header-container">
             <nav class="navbar navbar-expand-lg navbar-dark">
@@ -39,7 +38,7 @@
                                 <a class="nav-link" href="lifestyle.html">Lifestyle</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
+                                <a class="nav-link" href="index.html">About Us</a>
                             </li>
                             <li class="nav-item">
                                 <button class="btn btn-outline-success login-button" type="button">Login</button>
@@ -52,7 +51,6 @@
     </header>
 
     <!--Home section with hero image and callout to action-->
-
     <section class="hero-section">
         <div class="container">
             <div class="row align-items-center">
@@ -65,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 position-relative">
-                    <img src="assets/images/table-setting-791148_640.jpg" class="hero-image rounded" alt="vegan food">
+                    <img src="assets/images/smoothie-3697014_640.jpg" class="hero-image rounded" alt="vegan food">
                     <div class="discount-badge">Extra 25% off</div>
                 </div>
             </div>
@@ -101,36 +99,59 @@
     </section>
     
 
-    <!--About section-->
-
-    <section class="about-section">
-        <div class="container py-5">
-            <div class="container banner">
-                <h2 class="pb-1 banner-title">About Vegan Bliss</h2>
+   <!-- About section -->
+<section class="about-section">
+    <div class="container py-5">
+        <div class="container banner">
+            <h2 class="pb-1 banner-title">About Vegan Bliss</h2>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h3 class="about-subtext"><i class="fas fa-seedling fa-2x"></i> Our Mission</h3>
+                <p>At Vegan Bliss, our mission is to promote a healthier lifestyle through plant-based eating. We believe in the power of a vegan diet to transform lives and the planet. Join us as we explore delicious recipes, share nutritional tips, and advocate for a sustainable future.</p>
             </div>
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    
-                    <h3><i class="fas fa-seedling fa-2x"></i>Our Mission</h3>
-                    
-                    <p>At Vegan Bliss, our mission is to promote a healthier lifestyle through plant-based eating. We believe in the power of a vegan diet to transform lives and the planet. Join us as we explore delicious recipes, share nutritional tips, and advocate for a sustainable future.</p>
-                </div>
-                <div class="col-md-6">
-                    <h3><i class="bi bi-apple"></i>Our Vision</h3>
-                    <p>We envision a world where plant-based eating is the norm, and everyone has access to nutritious, delicious, and cruelty-free food. We are dedicated to spreading awareness about the benefits of a vegan lifestyle and making it accessible to all.</p>
-                </div>
+            <div class="col-md-6">
+                <img src="assets/images/pexels-anete-lusina-6331116 (1).jpg" class="img-fluid rounded" alt="Our Mission">
             </div>
-            <div class="row mt-4">
-                <div class="col-12">
-                    <h3 class="contact">Contact Us</h3>
-                    <p>Have questions or want to learn more? Reach out to us at <a href="mailto:info@veganbliss.com">info@veganbliss.com</a> or follow us on our social media channels for the latest updates and recipes.</p>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="assets/images/pexels-any-lane-5945950 (1).jpg" class="img-fluid rounded" alt="Our Vision">
+            </div>
+            <div class="col-md-6">
+                <h3 class="about-subtext"><i class="fas fa-apple-alt fa-2x"></i> Our Vision</h3>
+                <p>We envision a world where plant-based eating is the norm, and everyone has access to nutritious, delicious, and cruelty-free food. We are dedicated to spreading awareness about the benefits of a vegan lifestyle and making it accessible to all.</p>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12">
+                <h3 class="about-subtext"><i class="fas fa-envelope fa-2x"></i> Contact Us</h3>
+                <p>Have questions or want to learn more? Reach out to us at <a href="mailto:info@veganbliss.com">info@veganbliss.com</a> or follow us on our social media channels for the latest updates and recipes.</p>
+                <div class="mt-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.056835308416!2d-122.084249!3d37.422065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5e70f1e5ed1%3A0x2b8fef94997e5fa5!2sGoogleplex!5e0!3m2!1sen!2sus!4v1596355395123!5m2!1sen!2sus" 
+                            width="100%" 
+                            height="400" 
+                            frameborder="0" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            aria-hidden="false" 
+                            tabindex="0">
+                    </iframe>
                 </div>
             </div>
         </div>
-    </section>
+        <div class="row mt-4">
+            <div class="col-12">
+                <h3 class="about-subtext"><i class="fas fa-video fa-2x"></i> Watch Our Story</h3>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=lzaJolfptwk" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!--Subscribe section with email input and subscribe button-->
-
     <section class="container mail-container">
         <div class="p-3 rounded-3">
             <h2 class="first-title">Why not join our mailing list?</h2>
@@ -140,14 +161,13 @@
             <div class="mail-form">
                 <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="footer_newsletter_form">
                     <div class="form_wrapper mt-4">
-                        <input required type="email" name="EMAIL" class="required rounded border email mx-2" id="mce-EMAIL" placeholder="Enter your email">
-                        <button class="btn btn-danger email-button" type="submit" name="subscribe" id="embedded-subscribe">Subscribe</button>
+                        <input required type="email" name="EMAIL" class="required email-input rounded email mx-2" id="mce-EMAIL" placeholder="Enter your email">
+                        <button class="btn email-button" type="submit" name="subscribe" id="embedded-subscribe">Subscribe</button>
                     </div>
                 </form>
             </div>
         </div>
     </section>
-
     <!--Footer Section-->
 
     <footer class="footer-box">

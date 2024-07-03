@@ -22,23 +22,6 @@ body, html {
     min-height: 100vh;
 }
 
-.hero-text {
-    text-align: center;
-    font-family: Roboto;
-    font-size: 3rem; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    margin-top: 0px;
-}
-
-.slogan-title {
-    text-align: center;
-    font-family: Open Sans;
-    font-weight: 300;
-}
-
 /*------------------Header Section*/
 
 #header-container {
@@ -61,7 +44,6 @@ body, html {
 
 .logo-text {
     font-size: 40px;
-    font-style: oblique;
     font-family: Roboto;
     font-weight: 400;
     color: #000;
@@ -94,21 +76,9 @@ body, html {
 }
 
 .login-button:hover {
-    background-color: #3aafa9;
+    background-color: salmon;
     border-color: #000;
 }
-
-.btn-danger {
-    font-family: Open Sans;
-    font-weight: 500;
-}
-
-
-.btn-danger:hover {
-    background-color: #000;
-    border-color: #fff;
-}
-
 
 /*-----------------Hero-section */
 
@@ -117,6 +87,17 @@ body, html {
     background-color: #f8f9fa;
     padding: 60px 0;
     position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 3rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
 
 .hero-text h1 {
@@ -130,6 +111,12 @@ body, html {
     color: #4a4a4a; 
 }
 
+.slogan-title {
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 300;
+}
+
 .cta-button {
     background-color: #3aafa9;
     color: #fff;
@@ -140,7 +127,7 @@ body, html {
 }
 
 .cta-button:hover {
-    background-color: #F9F871;
+    background-color: salmon;
     border: 1px solid black;
 }
 
@@ -150,7 +137,7 @@ body, html {
     right: 20px;
     border-radius: 5px;
     font-size: 1rem;
-    background-color: #ffc107;
+    background-color: salmon;
     color: #000;
     font-weight: bold;
     padding: 5px 10px;
@@ -181,8 +168,47 @@ body, html {
     height: 68vh;
     display: flex;
 }
+/*-----------------Recipes section*/
 
-/* Benefits section */
+.recipe-section {
+    border-radius: 10px;
+}
+
+h5 {
+    height: 60px;
+    width: 200px;
+    margin: 0 auto;
+    align-content: center;
+    
+}
+
+.card-body-recipe {
+    background-color: rgba(43, 122, 120, 0.2);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-btn {
+    background-color: #3aafa9;
+    font-weight: 400;
+    color: #fff;
+}
+
+.card-btn:hover {
+    background-color: salmon;
+    border: 1px solid black;
+}
+
+
+
+.section-recipe-title {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b7a78;
+}
+
+/*-----------------Benefits section */
 
 .benefits-section {
     background-color: #fff;
@@ -196,24 +222,6 @@ body, html {
     color: #2b7a78;
 }
 
-/*-----------------Recipes section*/
-
-.recipe-section {
-    border-radius: 10px;
-}
-
-/* Benefits section */
-
-.benefits-section {
-    background-color: #fff;
-    padding: 60px 0;
-}
-
-.benefits-section h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #2b7a78; 
-}
 
 .benefits-section .lead {
     font-size: 1.25rem;
@@ -225,7 +233,7 @@ body, html {
 }
 
 .benefits-section i {
-    color: #3aafa9; 
+    color: #000; 
 }
 
 .benefits-section h3 {
@@ -233,19 +241,10 @@ body, html {
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 10px;
-    color: #2b7a78; 
+    color: #000;
 }
 
 /*------------------Lifestyle Section*/
-
-h5 {
-    height: 60px;
-    width: 200px;
-    margin: 0 auto;
-    align-content: center;
-    
-}
-
 
 .banner {
     width: 100%;
@@ -257,18 +256,27 @@ h5 {
 .banner-title {
     padding-top: 30px;
     padding-left: 10px;
-    font-family: Roboto;
-    font-size: 40px;
     text-align: center;
     text-transform: capitalize;
-    
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b7a78;
+}
+
+.pb-1 .banner-title {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b7a78;
 }
 
 .card-title {
-    font-family: Open Sans;
-    font-size: 25px;
-    text-transform: capitalize;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #000;
 }
 
 .card {
@@ -276,26 +284,16 @@ h5 {
 }
 
 .card-body {
-    background-color: #98FF98;
-}
-
-.btn-succes:hover {
-    background-color: #F8B900;
+    background-color: #fff;
 }
 
 /*-----------------About Section*/
 
 .col-md-6 h3 {
     font-family: Open Sans;
-    
 }
 
-.pb-1 .banner-title {
-    font-family: Roboto;
-    color: #3aafa9;
-    font-size: 2rem;
 
-}
 
 .about-section {
     background-color: #f8f9fa;
@@ -305,6 +303,15 @@ h5 {
 
 .about-section h3 i {
     margin-right: 10px;
+}
+
+
+.about-subtext {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #000;
 }
 
 .about-section p {
@@ -321,15 +328,14 @@ h5 {
 
 .first-title {
     font-family: Roboto;
-    font-size: 45px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #2b7a78;
     font-weight: bold;
+    color: #000;
+    text-align: center;
+    font-size: 2.5rem;
 }
 
 .content-container {
-    background-color: rgba(152, 255, 152, 0.5);
+    background-color: rgba(43, 122, 120, 0.2);
     width: 50%;
     border: 2px solid salmon;
     font-weight: 500;
@@ -346,6 +352,7 @@ h5 {
 .email-input {
     display: flexbox;
     justify-content: center;
+    border: 1px solid #2b7a78;
 }
 
 .footer_newsletter_form {
@@ -355,6 +362,14 @@ h5 {
 
 .email-button {
     text-transform: uppercase;
+    background-color: #3aafa9;
+    font-weight: 400;
+    color: #fff;
+}
+
+.email-button:hover {
+    background-color: salmon;
+    border: 1px solid black;
 }
 
 /*-----------------Footer section*/
@@ -378,7 +393,7 @@ h5 {
     font-size: 150%;
     margin: 5px;
     padding: 15px;
-    color: #dc3545;
+    color: #000;
 }
 
 

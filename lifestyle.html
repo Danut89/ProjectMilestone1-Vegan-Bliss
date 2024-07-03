@@ -51,46 +51,108 @@
         </div>
     </header>
 
-     <!--Lifestyle Why go vegan section-->
-
-     <section class="feature-section">
-        <div class="container px-4 py-5">
-            <div class="container banner">
-                <h2 class="pb-1 banner-title">Why be Vegan?</h2>
-            </div>
-            <div class="container mt-4" id="feature-container">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="assets/images/shamblen-studios-qwwqvUBQF94-unsplash (1).jpg" class="card-img-top mx-auto" height="400" alt="vegan food">
-                            <div class="card-body">
-                                <h3 class="text-center card-title">For the Environment</h3>
-                                <p>World meat production has quadrupled. This trend will continue to contribute to global warming, widespread pollution, deforestation, land degradation, water scarcity, and species extinction.</p>
-                            </div>
+    <!-- Lifestyle Why go Vegan section -->
+<section class="feature-section">
+    <div class="container px-4 py-5">
+        <div class="text-center mb-4">
+            <h2 class="section-title">Why be Vegan?</h2>
+        </div>
+        <div class="container mt-4" id="feature-container">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/images/pexels-samandgos-709552.jpg" class="card-img-top mx-auto" height="300" alt="vegan food">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="text-center card-title">For the Environment</h3>
+                            <p>World meat production has quadrupled. This trend will continue to contribute to global warming, widespread pollution, deforestation, land degradation, water scarcity, and species extinction.</p>
+                            <button class="btn btn-outline-success mt-auto" data-bs-toggle="modal" data-bs-target="#environmentModal">Learn More</button>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="assets/images/marek-levak-8q2uzN_gf-w-unsplash.jpg" height="400" class="card-img-top mx-auto" alt="animal">
-                            <div class="text-center card-body">
-                                <h3 class="card-title">For the Animals</h3>
-                                <p>Being vegan reduces the demand for animal products and shows compassion for other sentient beings. We uncover the truth about the various farmed animal industries below.</p>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/images/pexels-jolijn-rosendaal-113470379-21590653.jpg" height="300" class="card-img-top mx-auto" alt="animal">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="text-center card-title">For the Animals</h3>
+                            <p>Being vegan reduces the demand for animal products and shows compassion for other sentient beings. We uncover the truth about the various farmed animal industries below.</p>
+                            <button class="btn btn-outline-success mt-auto" data-bs-toggle="modal" data-bs-target="#animalsModal">Learn More</button>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card">
-                            <img src="assets/images/jared-rice-NTyBbu66_SI-unsplash.jpg" height="400" class="card-img-top mx-auto" alt="woman">
-                            <div class="text-center card-body">
-                                <h3 class="card-title">For Your Health</h3>
-                                <p>Many people think that animal products like meat and milk are essential parts of a healthy diet. However, well-planned vegan diets contain all the nutrients that our bodies need.</p>
-                            </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/images/pexels-kindelmedia-8181521.jpg" height="300" class="card-img-top mx-auto" alt="woman">
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="text-center card-title">For Your Health</h3>
+                            <p>Many people think that animal products like meat and milk are essential parts of a healthy diet. However, well-planned vegan diets contain all the nutrients that our bodies need.</p>
+                            <button class="btn btn-outline-success mt-auto" data-bs-toggle="modal" data-bs-target="#healthModal">Learn More</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <!-- Environment Modal -->
+    <div class="modal fade" id="environmentModal" tabindex="-1" aria-labelledby="environmentModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="environmentModalLabel">For the Environment</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>World meat production has quadrupled over the last 50 years. This increasing trend will continue to contribute to global warming, widespread pollution, deforestation, land degradation, water scarcity, and species extinction. By adopting a vegan lifestyle, you can reduce your carbon footprint and promote a more sustainable world.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animals Modal -->
+    <div class="modal fade" id="animalsModal" tabindex="-1" aria-labelledby="animalsModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="animalsModalLabel">For the Animals</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Choosing a vegan lifestyle reduces the demand for animal products and demonstrates compassion for other sentient beings. The various farmed animal industries often involve inhumane practices. By going vegan, you take a stand against cruelty and support more ethical treatment of animals.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Health Modal -->
+    <div class="modal fade" id="healthModal" tabindex="-1" aria-labelledby="healthModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="healthModalLabel">For Your Health</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Many people believe that animal products like meat and milk are essential for a healthy diet. However, well-planned vegan diets provide all the necessary nutrients, such as proteins, vitamins, and minerals, while reducing the risk of chronic diseases. Embrace a vegan lifestyle for a healthier you!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
 
      <!--Subscribe section with email input and subscribe button-->
 
@@ -104,7 +166,7 @@
                 <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="footer_newsletter_form">
                     <div class="form_wrapper mt-4">
                         <input required type="email" name="EMAIL" class="required rounded border email mx-2" id="mce-EMAIL" placeholder="Enter your email">
-                        <button class="btn btn-danger email-button" type="submit" name="subscribe" id="embedded-subscribe">Subscribe</button>
+                        <button class="btn btn email-button" type="submit" name="subscribe" id="embedded-subscribe">Subscribe</button>
                     </div>
                 </form>
             </div>
