@@ -1,5 +1,3 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
@@ -52,15 +50,16 @@ body, html {
 }
 
 .nav-item {
-  font-size: larger;
   margin-left: 50px;
-  font-family: Roboto;
+  font-family: Open Sans;
   padding-top:10px;
 }
 
 .nav-item, .nav-link {
     color: #000;
     font-weight: 500;
+    font-size: 2opx;
+    font-weight: bold;
 }
 
 .nav-link:hover {
@@ -166,8 +165,44 @@ body, html {
 .hero-container {
     margin-bottom: 30px;
     height: 68vh;
-    display: flex;
+    display: flexbox;
 }
+
+/*-----------------Benefits section */
+
+.benefits-section {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.benefits-section h2 {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b7a78;
+}
+
+.benefits-section .lead {
+    font-size: 1.25rem;
+    color: #4a4a4a; 
+}
+
+.benefits-section .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.benefits-section i {
+    color: #000; 
+}
+
+.benefits-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
 /*-----------------Recipes section*/
 
 .recipe-section {
@@ -199,49 +234,11 @@ h5 {
     border: 1px solid black;
 }
 
-
-
 .section-recipe-title {
     font-family: Roboto;
     font-size: 2rem;
     font-weight: bold;
     color: #2b7a78;
-}
-
-/*-----------------Benefits section */
-
-.benefits-section {
-    background-color: #fff;
-    padding: 60px 0;
-}
-
-.benefits-section h2 {
-    font-family: Roboto;
-    font-size: 2rem;
-    font-weight: bold;
-    color: #2b7a78;
-}
-
-
-.benefits-section .lead {
-    font-size: 1.25rem;
-    color: #4a4a4a; 
-}
-
-.benefits-section .col-md-4 {
-    margin-bottom: 30px;
-}
-
-.benefits-section i {
-    color: #000; 
-}
-
-.benefits-section h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    color: #000;
 }
 
 /*------------------Lifestyle Section*/
@@ -293,18 +290,14 @@ h5 {
     font-family: Open Sans;
 }
 
-
-
 .about-section {
     background-color: #f8f9fa;
     padding: 60px 0;
-
 }
 
 .about-section h3 i {
     margin-right: 10px;
 }
-
 
 .about-subtext {
     font-size: 1.5rem;
@@ -319,6 +312,11 @@ h5 {
     color: #4a4a4a;
 }
 
+iframe {
+    border: 0;
+    width: 100%;
+    height: 300px;
+}
 /*-----------------Mail-join Section*/
 
 .mail-container {
