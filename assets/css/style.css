@@ -22,18 +22,10 @@ body, html {
     min-height: 100vh;
 }
 
-.first-section-title {
+.hero-text {
     text-align: center;
     font-family: Roboto;
     font-size: 3rem; 
-}
-
-.title-slogan {
-    text-align: center;
-    font-family: Roboto;
-}
-
-.title-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,6 +33,11 @@ body, html {
     margin-top: 0px;
 }
 
+.slogan-title {
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 300;
+}
 
 /*------------------Header Section*/
 
@@ -58,7 +55,8 @@ body, html {
 }
 
 .logo-image {
-    border-radius: 15px;
+    height: 65px;
+    width: auto;
 }
 
 .logo-text {
@@ -66,37 +64,37 @@ body, html {
     font-style: oblique;
     font-family: Roboto;
     font-weight: 400;
-    color: #fff;
+    color: #000;
+    padding-top: 30px;
+    padding-left: 10px;
 }
 
 .nav-item {
   font-size: larger;
   margin-left: 50px;
-  font-family: Open Sans;
+  font-family: Roboto;
+  padding-top:10px;
 }
 
 .nav-item, .nav-link {
-    color: #FFD700;
-    font-weight: 700;
+    color: #000;
+    font-weight: 500;
 }
 
 .nav-link:hover {
-    color: #000;
-}
-
-.nav-link:active {
-    border-bottom: 2px solid #FFD700;
+    color: #fff;
 }
 
 .login-button {
-    background-color: #fff;
-    font-family: Roboto;
-    font-weight: 600;
-    text-transform: uppercase;
+    background-color: #000;
+    font-family: Open Sans;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
 }
 
 .login-button:hover {
-    background-color: #FFD700;
+    background-color: #3aafa9;
     border-color: #000;
 }
 
@@ -114,10 +112,69 @@ body, html {
 
 /*-----------------Hero-section */
 
-
 .hero-section {
-    overflow: hidden;
+    padding: 60px 0;
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    position: relative;
 }
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2b7a78; 
+}
+
+.hero-text .lead {
+    font-size: 1.25rem;
+    color: #4a4a4a; 
+}
+
+.cta-button {
+    background-color: #3aafa9;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border: none;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #F9F871;
+    border: 1px solid black;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.features {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.features .feature {
+    margin: 20px 0;
+}
+
 
 .hero-container {
     margin-bottom: 30px;
@@ -125,53 +182,61 @@ body, html {
     display: flex;
 }
 
+/* Benefits section */
 
-
-
-.title-container {
-    position: relative;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 20px;
+.benefits-section {
+    background-color: #fff;
+    padding: 60px 0;
 }
 
-
-/*-------------callout to action container*/
-
-.jumbotrone-container {
-    position: absolute;
-    bottom: 25%;
-    right: 25%;
-    background-color: rgba(255, 215, 0, 0.6);
-    text-align: center;
-    margin-right: 20px;
-    padding: 10px;
+.benefits-section h2 {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b7a78;
 }
 
-.jumbo-text {
-    text-transform: uppercase;
-    font-family: Open Sans;
-    text-decoration: underline;
-    font-size: x-large;
+/*-----------------Recipes section*/
+
+.recipe-section {
+    border-radius: 10px;
 }
 
-.jumbo-subtext {
-    font-weight: 600;
-    font-size: x-large;
+/* Benefits section */
+
+.benefits-section {
+    background-color: #fff;
+    padding: 60px 0;
 }
 
-
-.jumbotrone-container p {
-    font-family: Open Sans;
-    font-weight: 400;
-    text-transform: capitalize;
-    font-size: large;
+.benefits-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b7a78; 
 }
 
+.benefits-section .lead {
+    font-size: 1.25rem;
+    color: #4a4a4a; 
+}
 
-/*------------------Why go vegan Section*/
+.benefits-section .col-md-4 {
+    margin-bottom: 30px;
+}
+
+.benefits-section i {
+    color: #3aafa9; 
+}
+
+.benefits-section h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #2b7a78; 
+}
+
+/*------------------Lifestyle Section*/
 
 h5 {
     height: 60px;
@@ -185,7 +250,6 @@ h5 {
 .banner {
     width: 100%;
     height: 100px;
-    background: rgba(255, 215, 0, 1);
     border-radius: 10px;
     margin-left: 0px;
 }
@@ -197,7 +261,7 @@ h5 {
     font-size: 40px;
     text-align: center;
     text-transform: capitalize;
-    text-shadow: 1px 1px 1px black;
+    
 }
 
 .card-title {
@@ -219,42 +283,53 @@ h5 {
     background-color: #F8B900;
 }
 
-/*-----------------Feature-Recipes Section*/
+/*-----------------About Section*/
 
+.col-md-6 h3 {
+    font-family: Open Sans;
+    
+}
 
+.pb-1 .banner-title {
+    font-family: Roboto;
+    color: #3aafa9;
+    font-size: 2rem;
 
+}
 
+.about-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
 
+}
 
+.about-section h3 i {
+    margin-right: 10px;
+}
 
-
-
-
-
-
-
-
-
+.about-section p {
+    font-size: 1rem;
+    color: #4a4a4a;
+}
 
 /*-----------------Mail-join Section*/
 
 .mail-container {
-    background-color: rgba(152, 255, 152, 1);;
-    ;
     border-radius: 10px;
     margin-top: 30px;
 }
 
 .first-title {
     font-family: Roboto;
-    font-size: 50px;
-    letter-spacing: 2px;
+    font-size: 45px;
     text-align: center;
     text-transform: capitalize;
+    color: #2b7a78;
+    font-weight: bold;
 }
 
 .content-container {
-    background-color: rgba(255, 215, 0, 1);
+    background-color: rgba(152, 255, 152, 0.5);
     width: 50%;
     border: 2px solid salmon;
     font-weight: 500;
@@ -281,17 +356,6 @@ h5 {
 .email-button {
     text-transform: uppercase;
 }
-  
-/*-----------------Dividers*/
-
-.b-example-divider {
-    width: 100%;
-    height: 1rem;
-    background-color: rgba(0, 0, 0, .1);
-    border: solid rgba(0, 0, 0, .15);
-    border-width: 1px 0;
-    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-}
 
 /*-----------------Footer section*/
 
@@ -317,137 +381,19 @@ h5 {
     color: #dc3545;
 }
 
-/*-----------------Recipes category page*/
 
-.category-container {
-    list-style-type: style;
- }
  
- .title-box {
-     font-family: Roboto;
-     font-size: 3rem;
- }
+
  
- .list-container-breakfast, .list-container-launch, .list-container-dessert  {
-     padding: 20px 10px;
-     margin-left: 50px;
-     margin-right: 50px;
-     list-style-position: inside;
-     position: relative;
- }
- 
- .list-container-breakfast {
-     background-color: #A4FFCC;
- }
- 
- .list-container-launch {
-     background-color: #C7FF9E;
- }
- 
- .list-container-dessert {
-     background-color: #F9F871;
- }
- 
- 
- li {
-     font-family: Open Sans;
-     font-size: large;
-     font-weight: 500;
-     padding-bottom: 10px;
-     margin-left: 30px;
- }
- 
- .img-container-a {
-    position: absolute;
-    top: 50px;
-    right: 50px;
- }
- 
- .img-container-b {
-     position: absolute;
-     top: 50px;
-     right: 50px;
-  }
- 
-  .img-container-c {
-     position: absolute;
-     top: 50px;
-     right: 50px;
-  }
- 
- .list-img-a, .list-img-b, .list-img-c {
-     height: 300px;
- }
 
 
 
- /*-------------------Individual recipe page*/
+    
+    
 
-.recipe-details-item {
-    background-color: #FCE8FE;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 30px;
-    padding: 20px 10px;
-    }
     
-    .recipe-summary-block {
-        grid-column-gap: 15px;
-        grid-row-gap: 15px;
-        flex-direction: column;
-        display: flex;
-    }
+   
     
-    .recipe-summary-item {
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
-        align-items: center;
-        display: flex;
-    }
-    
-    .recipe-summary-icon-wrap {
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        align-items: flex-start;
-        display: flex;
-    }
-    
-    .ingredients-box-title, .instructions-box-title, .nutrition-box-title {
-        margin-left: 50px;
-        margin-bottom: 20px;
-        text-decoration: underline;
-    }
-    
-    .list-container-ingredients {
-        list-style-type: circle;
-        background-color: #9EFFF0;
-        padding: 20px 10px;
-        margin-left: 50px;
-        margin-right: 50px;
-        list-style-position: inside;
-    }
-    
-    .list-container-intructions {
-        list-style-type: decimal;
-        background-color: #A7F2FA;
-        padding: 20px 10px;
-        margin-left: 50px;
-        margin-right: 50px;
-        list-style-position: inside;
-    }
-    
-    .list-container-nutrition {
-        list-style-type: circle;
-        background-color: #C7FF9E;
-        padding: 20px 10px;
-        margin-left: 50px;
-        margin-right: 50px;
-        list-style-position: inside;
-    }
-    
-    .img-container {
-        display: flex;
-        justify-content: center;
-    }
+   
     
 
