@@ -121,7 +121,7 @@ body, html {
 }
 
 .cta-button {
-    background-color: #3aafa9;
+    background-color: #2b7a78;
     color: #fff;
     padding: 10px 20px;
     font-size: 1.25rem;
@@ -236,7 +236,7 @@ h5 {
 }
 
 .card-btn {
-    background-color: #3aafa9;
+    background-color: #2b7a78;
     font-weight: 400;
     color: #fff;
 }
@@ -348,6 +348,7 @@ iframe {
 }
 
 /*-----------------Testimonial Section*/
+
 .testimonials {
     background-color: #f9f9f9;
     padding: 60px 0;
@@ -373,13 +374,21 @@ iframe {
 }
 
 .testimonials h2 {
-    font-size: 2.5rem;
+    font-size: 2.rem;
     margin-bottom: 40px;
 }
 
 .testimonials p {
     font-size: 1rem;
     color: #555;
+}
+
+
+.testimonials-title {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b7a78;
 }
 
 /*-----------------Mail-join Section*/
@@ -404,6 +413,12 @@ iframe {
     font-weight: 500;
 }
 
+.rounded-3 .first-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2b7a78; 
+}
+
 .content {
     font-family: Open Sans;
     font-size: x-large;
@@ -424,8 +439,8 @@ iframe {
 }
 
 .email-button {
-    text-transform: uppercase;
-    background-color: #3aafa9;
+    text-transform: capitalize;
+    background-color: #2b7a78;
     font-weight: 400;
     color: #fff;
 }
@@ -473,10 +488,6 @@ iframe {
 #contact .form-label {
     font-weight: bold;
     color: #555;
-}
-
-#contact .btn:hover {
-    background-color: #218838;
 }
 
 #contact .about-subtext {
