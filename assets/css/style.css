@@ -459,6 +459,42 @@ iframe {
     color: #000;
 }
 
+/*-----------------Contact section*/
+
+#contact {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+#contact p {
+    color: #333;
+}
+
+#contact .form-label {
+    font-weight: bold;
+    color: #555;
+}
+
+#contact .btn:hover {
+    background-color: #218838;
+}
+
+#contact .about-subtext {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#contact iframe {
+    border: 0;
+    border-radius: 10px;
+}
+
 /*----------------Animation for hero Section*/
  
 @import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';

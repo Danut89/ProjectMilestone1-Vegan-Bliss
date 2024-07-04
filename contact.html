@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegan Bliss</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/512fc4df7f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+</head>
+
+<body>
+     <!--Header Navigation with links from bootstrap 5.3-->
+     <header>
+        <div id="header-container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/att.MizzBtKJS-qZ7K4qF4bifdhV7Gei97aLA3iq7DF6RTc.png" alt="Logo" class="logo-image rounded">
+                        <span class="logo-text">Vegan Bliss</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="featuredrecipes.html">Recipes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="lifestyle.html">Lifestyle</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://8000-danut89-projectmileston-tvhu5dmn8gt.ws.codeinstitute-ide.net/index.html#about-us">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-outline-success login-button" type="button">Login</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+ <!-- Contact Us Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center section-recipe-title mb-4">Contact Us</h2>
+        <p class="text-center lead mb-5">Have questions or feedback? We'd love to hear from you!</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form action="https://formspree.io/f/{your_form_id}" method="POST">
+                    <div class="mb-4">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="_replyto" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-outline-success">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12">
+                <h3 class="about-subtext text-center mb-4"><i class="fas fa-envelope fa-2x"></i> Contact Details</h3>
+                <ul class="list-unstyled text-center mb-4">
+                    <li class="mb-2"><i class="fas fa-phone fa-lg me-2"></i><strong>Phone:</strong> +44 20 7946 0958</li>
+                    <li class="mb-2"><i class="fas fa-map-marker-alt fa-lg me-2"></i><strong>Address:</strong> 123 Vegan Street, Plant City, PC1 2VE, UK</li>
+                    <li><i class="fas fa-envelope fa-lg me-2"></i><strong>Email:</strong> <a href="mailto:info@veganbliss.com">info@veganbliss.com</a></li>
+                </ul>
+                <div class="text-center">
+                    <iframe class="rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.056835308416!2d-122.084249!3d37.422065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb5e70f1e5ed1%3A0x2b8fef94997e5fa5!2sGoogleplex!5e0!3m2!1sen!2sus!4v1596355395123!5m2!1sen!2sus" title="map location" style="border:0; width:100%; height:300px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+     <!--Subscribe section with email input and subscribe button-->
+     <section class="container mail-container">
+        <div class="p-3 rounded-3">
+            <h2 class="first-title">Why not join our mailing list?</h2>
+            <div class="content-container mx-auto rounded">
+                <p class="content">Get our latest promotions, new products, and offers straight to your inbox!</p>
+            </div>
+            <div class="mail-form">
+                <form method="post" id="subscribe-form" name="subscribe-form" class="footer_newsletter_form">
+                    <div class="form_wrapper mt-4">
+                        <input required type="email" name="EMAIL" class="required email-input rounded email mx-2" id="mce-EMAIL" placeholder="Enter your email">
+                        <button class="btn email-button" type="submit" name="subscribe" id="embedded-subscribe">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!--Footer Section-->
+    <footer class="footer-box">
+        <ul class="social-network">
+            <span class="mb-md-0">© 2024 Vegan Bliss, Inc</span>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </footer>
+
+    <!-- Bootstrap JS (necessary for modal functionality) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
