@@ -245,6 +245,14 @@ h5 {
     border: 1px solid black;
 }
 
+.animate-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.animate-card:hover {
+    transform: translateY(-20px);
+}
+
 /*------------------Lifestyle Section*/
 
 .banner {
@@ -286,6 +294,14 @@ h5 {
 
 .card-body {
     background-color: #fff;
+}
+
+.animate-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.animate-card:hover {
+    transform: translateY(-20px);
 }
 
 /*-----------------About Section*/
@@ -441,9 +457,58 @@ iframe {
     color: #000;
 }
 
-
+/*----------------Animation for hero Section*/
  
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css';
 
+.hero-section {
+    overflow: hidden;
+}
+
+.hero-text {
+    animation: fadeInLeft 3s;
+}
+
+.cta-button {
+    animation: bounceIn 2s;
+}
+
+.hero-image {
+    animation: zoomIn 1.5s;
+}
+
+/* Additional animations */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes bounceIn {
+    0%, 20%, 40%, 60%, 80%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
  
 
 
