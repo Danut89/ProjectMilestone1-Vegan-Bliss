@@ -1,27 +1,5 @@
 # Vegan Bliss
 
-## Table of Contents
-- [User Experience (UX)](#user-experience-ux)
-  - [Project Goals](#project-goals)
-  - [Target Audience](#target-audience)
-  - [User Stories](#user-stories)
-    - [First Time Visitor Goals](#first-time-visitor-goals)
-    - [Returning Visitor Goals](#returning-visitor-goals)
-    - [Frequent User Goals](#frequent-user-goals)
-    - [Site Owner Goals](#site-owner-goals)
-- [Structure](#structure)
-- [Wireframes](#wireframes)
-- [Design](#design)
-  - [Colour Scheme](#colour-scheme)
-  - [Typography](#typography)
-  - [Imagery](#imagery)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Testing](#testing)
-- [Bugs](#bugs)
-- [Features To Be Implemented in Future](#features-to-be-implemented-in-future)
-- [Deployment](#deployment)
-- [Credits](#credits)
 
 
 ## User Experience (UX)
@@ -258,6 +236,62 @@ User testing was conducted to gather feedback and improve the website's usabilit
 - **Test 1**: Navigation and ease of use
 - **Test 2**: Functionality of interactive elements (e.g., modals, contact form)
 - **Test 3**: Overall user experience
+
+## Testing
+
+### Performance and Accessibility Testing
+
+To ensure the website provides an optimal user experience, I conducted thorough testing using Lighthouse in Chrome Developer Tools. The tests focused on performance, accessibility, best practices, and SEO.
+
+#### Desktop Performance and Accessibility Test
+
+![Desktop Lighthouse Test 1](./assets/testing-screenshoots/accesibility-desktop.png)
+
+- **Performance**: Achieved a score of 99. Improvements were made by optimizing images, adding width and height attributes, and minifying CSS and JavaScript files.
+- **Accessibility**: Scored 96, with enhancements such as adding aria-labels to links and buttons to improve screen reader compatibility.
+- **Best Practices**: Scored 100, ensuring the site follows web standards and best practices.
+- **SEO**: Scored 91, indicating good search engine optimization but with room for further improvements.
+
+#### Mobile Performance and Accessibility Test
+
+![Desktop Lighthouse Test 2](./assets/testing-screenshoots/Desktop%20lighthouse%20test.png)
+
+- **Performance**: Initial test scored 84. Improvements were needed in reducing the Largest Contentful Paint (LCP) and optimizing images.
+- **Accessibility**: Scored 96, similar to the desktop version.
+- **Best Practices**: Scored 100, maintaining web standards.
+- **SEO**: Scored 91, consistent with the desktop version.
+
+![Mobile Lighthouse Test 1](./assets/testing-screenshoots/Mobile%20lighthouse%20test1.png)
+
+- **Performance**: Subsequent optimizations improved the score to 91. This was achieved by further reducing image sizes, enabling text compression, and eliminating render-blocking resources.
+
+![Mobile Lighthouse Test 3](./assets/testing-screenshoots/mobile-test2.png)
+g
+- **Performance**: Final optimizations resulted in a score of 99. This was done by ensuring all images are properly sized, minifying CSS and JavaScript files, and leveraging browser caching.
+
+### Specific Improvements Made
+
+1. **Image Optimization**:
+    - Converted images to WebP format for better compression and faster loading times.
+    - Added width and height attributes to all images to avoid layout shifts.
+
+2. **Aria-labels**:
+    - Added aria-labels to all interactive elements such as links and buttons to improve accessibility for screen reader users.
+
+3. **Minifying CSS and JavaScript**:
+    - Minified all CSS and JavaScript files to reduce file sizes and improve load times.
+
+4. **Leveraging Browser Caching**:
+    - Implemented browser caching for static assets to reduce server load and improve repeat visit performance.
+
+5. **Eliminating Render-Blocking Resources**:
+    - Deferred non-critical JavaScript to ensure faster initial page load.
+
+6. **Text Compression**:
+    - Enabled text compression to reduce the amount of data transferred over the network.
+
+These steps significantly enhanced both the performance and accessibility of the website, ensuring a smooth and efficient user experience across all devices.
+
 
 ### Ongoing Testing
 Continuous testing and user feedback are being gathered to improve and update the website regularly.

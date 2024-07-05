@@ -165,7 +165,7 @@ body, html {
 .hero-container {
     margin-bottom: 30px;
     height: 68vh;
-    display: flexbox;
+    display: flex;
 }
 
 /*-----------------Benefits section */
@@ -302,6 +302,12 @@ h5 {
     transform: translateY(-20px);
 }
 
+.video-frame {
+    border: none;   
+    border: 1px solid #000; 
+    border-radius: 10px; 
+}
+
 /*-----------------About Section*/
 
 .col-md-6 h3 {
@@ -370,7 +376,7 @@ iframe {
 }
 
 .testimonials h2 {
-    font-size: 2.rem;
+    font-size: 2rem;
     margin-bottom: 40px;
 }
 
@@ -424,7 +430,7 @@ iframe {
 }
 
 .email-input {
-    display: flexbox;
+    display: flex;
     justify-content: center;
     border: 1px solid #2b7a78;
 }
