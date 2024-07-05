@@ -1,4 +1,6 @@
-# Vegan Bliss
+# Vegan Bliss     
+
+The live link can be found here - [Vegan Bliss](https://Danut89.github.io/ProjectMilestone1-Vegan-Bliss/)
 
 ### Introduction
 
@@ -219,7 +221,12 @@ You can clone your repository to create a local copy on your computer. Any chang
 
 ### Code Validation
 - **HTML Validation**: All HTML files were checked and validated using the W3C Markup Validation Service.
+- [index.html validation](./assets/testing-screenshoots/index-html%20validator.png)
+- [featuredrecipe.html validation](./assets/testing-screenshoots/recipe%20validation.png)
+- [lifestyle.html validation](./assets/testing-screenshoots/lifestyle%20validation.png)
+- [contact.html validation](./assets/testing-screenshoots/contact%20validation.png)
 - **CSS Validation**: All CSS files were checked and validated using the W3C CSS Validation Service.
+- [style.css validation](./assets/testing-screenshoots/css%20validation.png)
 
 ### Browser Compatibility
 The website was tested across multiple browsers to ensure compatibility and responsiveness:
@@ -234,11 +241,58 @@ The website's responsiveness was tested on various devices and screen sizes:
 - **Tablet**
 - **Mobile**
 
-### User Testing
-User testing was conducted to gather feedback and improve the website's usability:
-- **Test 1**: Navigation and ease of use
-- **Test 2**: Functionality of interactive elements (e.g., modals, contact form)
-- **Test 3**: Overall user experience
+## User Testing
+
+### Navbar Links
+- **Test**: Clicked on each navbar link to ensure they navigate to the correct sections/pages.
+- **Result**: All navbar links function correctly, directing the user to the appropriate sections or pages.
+
+###  Hamburger Menu
+- **Test**: Tested the hamburger menu on mobile devices to ensure it opens and closes correctly.
+- **Result**: The hamburger menu opens and closes as expected. The logo text is hidden on small devices, improving the navigation experience.
+
+### Join Our Community Button
+- **Test**: Clicked the "Join Our Community" button to check if the modal opens.
+- **Result**: The modal opens successfully, allowing users to sign up for the community.
+
+### Modal Functionality
+- **Test**: Interacted with the modal, including entering an email address and attempting to subscribe.
+- **Result**: The modal functions correctly, capturing the email address and closing properly when the close button is clicked.
+
+### Downloadable Recipes
+- **Test**: Attempted to download recipes from the recipes page.
+- **Result**: Recipes download correctly, providing users with access to vegan recipes in a convenient format.
+
+### Contact Form
+- **Test**: Filled out and submitted the contact form to ensure it works.
+- **Result**: The contact form successfully captures user input and submits without errors.
+
+### Login Button
+- **Test**: Clicked the login button to ensure it responds appropriately.
+- **Result**: The login button is functional, though it currently does not have a linked action.
+
+### Page Load Performance
+- **Test**: Measured the page load times on both desktop and mobile devices.
+- **Result**: The website loads quickly, with significant improvements seen after performance optimizations.
+
+### Accessibility Features
+- **Test**: Used screen readers and keyboard navigation to test accessibility.
+- **Result**: The website is accessible, with proper ARIA labels and keyboard navigability.
+
+### Image Load Times
+- **Test**: Verified the load times for images across the site.
+- **Result**: Images load efficiently due to optimization (e.g., using WebP format).
+
+### Footer Links
+- **Test**: Clicked on social media links in the footer to ensure they open in new tabs.
+- **Result**: All social media links open correctly in new tabs.
+
+### Overall User Experience
+- **Test**: Conducted a general usability test to evaluate the overall user experience.
+- **Result**: The website provides a smooth and intuitive user experience, with all features functioning as intended.
+
+These user tests confirm that the website is fully functional and user-friendly, providing a seamless experience for visitors.
+
 
 ## Testing
 
@@ -272,52 +326,42 @@ To ensure the website provides an optimal user experience, I conducted thorough 
 g
 - **Performance**: Final optimizations resulted in a score of 99. This was done by ensuring all images are properly sized, minifying CSS and JavaScript files, and leveraging browser caching.
 
-### Specific Improvements Made
-
-1. **Image Optimization**:
-    - Converted images to WebP format for better compression and faster loading times.
-    - Added width and height attributes to all images to avoid layout shifts.
-
-2. **Aria-labels**:
-    - Added aria-labels to all interactive elements such as links and buttons to improve accessibility for screen reader users.
-
-3. **Minifying CSS and JavaScript**:
-    - Minified all CSS and JavaScript files to reduce file sizes and improve load times.
-
-4. **Leveraging Browser Caching**:
-    - Implemented browser caching for static assets to reduce server load and improve repeat visit performance.
-
-5. **Eliminating Render-Blocking Resources**:
-    - Deferred non-critical JavaScript to ensure faster initial page load.
-
-6. **Text Compression**:
-    - Enabled text compression to reduce the amount of data transferred over the network.
-
-These steps significantly enhanced both the performance and accessibility of the website, ensuring a smooth and efficient user experience across all devices.
-
 
 ### Ongoing Testing
 Continuous testing and user feedback are being gathered to improve and update the website regularly.
 
-## Bugs
+### Bugs
 
-### Bugs and Fixes
-- **Bug 1**: Issue with the navigation bar not collapsing on mobile devices.
+## Hamburger Menu Not Closing
+- **Issue**: The hamburger menu was not closing when clicked on mobile devices.
+- **Fix**: Added `data-bs-toggle` and `data-bs-target` attributes correctly to the button element. Updated the Bootstrap classes and ensured that the navigation structure matches Bootstrap's recommended structure for a collapsible navbar.
   - **Fix**: Updated the Bootstrap classes and JavaScript code to ensure proper functionality.
-- **Bug 2**: Images overlapping text in some sections.
-  - **Fix**: Adjusted CSS styles to ensure proper spacing and layout.
-- **Bug 3**: Contact form not submitting properly.
-  - **Fix**: Corrected the Formspree integration and tested with various inputs.
 
-### Fixed:
-- **Image Overlap Issue**: Fixed an issue where images were overlapping with text on certain sections by adjusting CSS styles.
-- **Form Submission Error**: Corrected the contact form submission by properly integrating Formspree.
-- **Navigation Bar Responsiveness**: Resolved an issue where the navigation bar did not collapse properly on mobile devices.
-- **Button Alignment**: Ensured consistent button alignment across different browsers and devices by updating CSS.
+## Logo Text Visibility on Small Devices
+- **Issue**: The logo text was cluttering the navbar on small devices.
+- **Fix**: Implemented a utility class to hide the logo text on small devices and display it only on larger devices.
+
+## Accessibility Improvements
+- **Issue**: Several accessibility issues were identified, including insufficient color contrast and links without discernible names.
+- **Fix**: Improved color contrast by updating the CSS. Added `aria-label` attributes to links to provide better context for screen readers.
+
+## Performance Improvements
+- **Issue**: The website had a low performance score on mobile devices.
+- **Fix**: Converted images to WebP format and added `width` and `height` attributes to images. Deferred loading of non-critical CSS and JavaScript. This resulted in significant improvement in performance scores.
+
+## HTML Validation Errors
+- **Issue**: Various HTML validation errors were found, such as stray start tags.
+- **Fix**: Cleaned up the HTML by ensuring proper nesting and closing of tags. Validated the HTML using W3C Markup Validation Service to ensure compliance with web standards.
+
+## CSS Validation Errors
+- **Issue**: CSS validation errors were present.
+- **Fix**: Cleaned up the CSS by removing unused styles and validating with W3C CSS Validation Service. Ensured that all styles are correctly formatted and adhere to CSS standards.
+
+These fixes have improved the overall functionality, accessibility, and performance of the website.
+
 
 ### Known:
 - **Map Alignment**: On medium-sized devices, the Google Map on the contact page does not center perfectly over the contact details. This requires further adjustment in CSS.
-- **Recipe Modal Overflow**: Some recipe modals may overflow on smaller screens, requiring further adjustments to modal sizes.
 
 ## Credits
 
@@ -334,16 +378,10 @@ Continuous testing and user feedback are being gathered to improve and update th
 - **Font Awesome**: For the icons used in the website.
 - **Bootstrap**: For the responsive design framework.
 - **Google Fonts**: For the typography used in the website.
-- **Formspree**: For handling form submissions.
 - **The Vegan Society**: For inspiration and resources related to veganism.
+- **Stack Overflow**: For inspiration and resource code.
 
-### Development Tools
-- **GitPod**: For the online development environment.
-- **Visual Studio Code**: For the code editor.
-- **Git**: For version control.
-- **GitHub**: For hosting the project repository.
-- **Figma**: For creating wireframes and design prototypes.
-- **Balsamiq**: For creating wireframes and mockups.
+.
 
 ### Special Thanks
-- Special thanks to friends and family for their support and feedback during the development of this project.
+- Special thanks to my mentor Moritz friends and family for their support and feedback during the development of this project.
