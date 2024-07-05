@@ -1,5 +1,9 @@
 # Vegan Bliss
 
+### Introduction
+
+Welcome to Vegan Bliss, your ultimate destination for embracing a healthier and greener lifestyle through delicious plant-based recipes and insightful tips on vegan living. 
+Explore our curated collection of vegan recipes, learn about the health benefits of a vegan diet, and join our vibrant community dedicated to making a positive impact on the planet. We believe that veganism is not just a diet but a lifestyle that fosters compassion, health, and environmental stewardship.
 
 
 ## User Experience (UX)
@@ -107,10 +111,6 @@ For consistency of user experience, the site logo, navigation links, and footer 
 ### Colour Scheme
 The colour palette was chosen using the Coolors colour generator website to reflect the fresh and natural vibe of Vegan Bliss.
 The website uses a fresh and natural color palette that reflects the vegan lifestyle, including shades of green, beige, and white.
-#### Typography
-The primary font used is 'Roboto', which is clean and easy to read. 'Open Sans' is used for headers to make them stand out.
-#### Imagery
-Images of vegan food, meal preparation, and fresh ingredients are used throughout the site to engage users and visually represent the content.
 
 The colours mainly used were:
 - **White**: #ffffff
@@ -163,20 +163,23 @@ Mock-ups were made using Balsamiq and Figma to help plan and visualize the site 
 - **JavaScript**: For adding interactive features and functionality to the website.
 - **Font Awesome**: For adding vector icons and social logos.
 
-### Back-End Technologies
-- **Formspree**: For handling form submissions and sending email notifications.
 
 ### Development Tools
-- **Visual Studio Code**: The code editor used for developing the website.
+- **Gitpod**: The code editor used for developing the website.
 - **Git**: For version control and collaboration.
 - **GitHub**: For hosting the project repository and managing version control.
-- **Gitpod**: For an online development environment.
+- **Visual Studio Code**: another development environment.
 - **Figma**: For creating wireframes and design prototypes.
 - **Balsamiq**: For creating wireframes and mockups.
+- **W3C Validator**: For validating code
+- **Squoosh**: For resing images
+
+
 
 ### Additional Resources
 - **Color Pallet Generator**: For selecting the website's color scheme.
 - **Unsplash, Pixabay, Pexels**: Sources for high-quality images used throughout the website.
+- **Toolbaz** : For generating content
 
 ## Deployment
 
