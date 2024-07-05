@@ -401,18 +401,20 @@ iframe {
 }
 
 .first-title {
-    font-family: Roboto;
     font-weight: bold;
-    color: #000;
     text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #2b7a78;
     font-size: 2.5rem;
 }
 
 .content-container {
-    background-color: rgba(43, 122, 120, 0.2);
     width: 50%;
-    border: 2px solid salmon;
     font-weight: 500;
+    background-color: rgba(43, 122, 120, 0.3);
+    border: 2px solid #4CAF50;
+    padding: 15px;
 }
 
 .rounded-3 .first-title {
@@ -422,17 +424,20 @@ iframe {
 }
 
 .content {
-    font-family: Open Sans;
-    font-size: x-large;
     text-align: center;
     text-transform: uppercase;
     padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    color: #4a4a4a;
 }
 
 .email-input {
     display: flex;
     justify-content: center;
     border: 1px solid #2b7a78;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .footer_newsletter_form {
@@ -441,16 +446,40 @@ iframe {
 }
 
 .email-button {
-    text-transform: capitalize;
-    background-color: #2b7a78;
-    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+    padding: 10px 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    border: none;
+    border: 1px solid #4CAF50;
     color: #fff;
 }
 
 .email-button:hover {
-    background-color: salmon;
-    border: 1px solid black;
+   background-color: #000;
 }
+
+
+
+
+
+
+
+/* Flexbox styling for the form */
+.footer_newsletter_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 768px) {
+    .footer_newsletter_form {
+        flex-direction: row;
+    }
+}
+
 
 /*-----------------Footer section*/
 
