@@ -90,21 +90,25 @@ The site has 4 main pages:
 - **Hero Image**: Features a visually appealing hero image of vegan dishes.
 - **Call to Action**: Includes an eye-catching call to action button directing users to the Contact page.
 - **About Us**: Contains a brief introduction and background of Vegan Bliss.
+![Home Page](./assets/testing-screenshoots/home-page.png)
 
 ### Recipes Page
 - **Recipe Listings**: Showcases a variety of vegan recipes with images and detailed instructions.
 - **Download Options**: Provides downloadable recipes in PDF format.
 - **Interactive Modals**: Contains modals for additional recipe details.
+![recipe Page](./assets/testing-screenshoots/recipe-page.png)
 
 ### Lifestyle Page
 - **Health Benefits**: Information about the health benefits of a vegan diet, including weight loss and improved digestion.
 - **Meal Prep Tips**: Tips on efficiently planning and preparing vegan meals.
 - **Embedded Videos**: Includes videos for more engaging content.
+![Lifestyle Page](./assets/testing-screenshoots/lifestyle-page.png)
 
 ### Contact Page
 - **Contact Form**: A user-friendly form for inquiries and feedback.
 - **Google Maps Integration**: Displays a map for the physical location.
 - **Contact Information**: Lists phone number, address, and email.
+![Contact Page](./assets/testing-screenshoots/contact-page.png)
 
 For consistency of user experience, the site logo, navigation links, and footer remain consistent throughout the site.
 
