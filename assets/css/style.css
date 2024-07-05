@@ -23,25 +23,15 @@ body, html {
     background-color: #fff;
     min-height: 100vh;
 }
-
-/*------------------Header Section*/
+/*-----------------Header section*/
 
 #header-container {
     background-color: #4CAF50;
 }
 
-.navbar-expand-lg {
-    height: 80px;
-    padding-top: 15px;
-}
-
-.navbar {
-    padding-top: 0rem;
-}
-
 .logo-image {
-    height: 65px;
-    width: auto;
+    width: 50px;
+    height: 50px;
 }
 
 .logo-text {
@@ -49,20 +39,19 @@ body, html {
     font-family: Roboto;
     font-weight: 400;
     color: #000;
-    padding-top: 30px;
     padding-left: 10px;
 }
 
 .nav-item {
-  margin-left: 50px;
-  font-family: Open Sans;
-  padding-top:10px;
+    margin-left: 50px;
+    font-family: "Open Sans";
+    padding-top: 10px;
 }
 
 .nav-item, .nav-link {
     color: #000;
     font-weight: 500;
-    font-size: 2opx;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -82,6 +71,13 @@ body, html {
     background-color: salmon;
     border-color: #000;
 }
+
+@media (max-width: 991.98px) {
+    .logo-text {
+        display: none;
+    }
+}
+
 
 /*-----------------Hero-section */
 
