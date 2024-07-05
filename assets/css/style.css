@@ -445,28 +445,6 @@ iframe {
     justify-content: center;
 }
 
-.email-button {
-    text-transform: uppercase;
-    color: #000;
-    padding: 10px 20px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    border: none;
-    border: 1px solid #4CAF50;
-    color: #fff;
-}
-
-.email-button:hover {
-   background-color: #000;
-}
-
-
-
-
-
-
-
-/* Flexbox styling for the form */
 .footer_newsletter_form {
     display: flex;
     flex-direction: column;
@@ -479,7 +457,6 @@ iframe {
         flex-direction: row;
     }
 }
-
 
 /*-----------------Footer section*/
 
