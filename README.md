@@ -364,6 +364,11 @@ Continuous testing and user feedback are being gathered to improve and update th
 - **Issue:** When attempting to submit the contact form, users encountered a 405 error indicating that the request method was not allowed. This was due to the form attempting to send data to a server endpoint that does not exist for this static website.
 - **Fix:** To resolve this issue, the form's `action` attribute was set to `"#"` and the `method` attribute was set to `"get"`. This ensures that the form submission does not attempt to post data to a server, thereby preventing the 405 error. The form now reloads the page upon submission without any errors.
 
+### 405 Error on Subscribe Button
+- **Issue:** Similar to the contact form, the subscribe button in the footer was also encountering a 405 error upon submission. This was because the form was attempting to send data to a non-existent server endpoint.
+
+- **Fix:** The same method used to fix the contact form issue was applied here. The form's `action` attribute was set to `"#"` and the `method` attribute was set to `"get"`. This change prevents the form from attempting to post data and reloads the page upon submission without any errors.
+
 
 
 ### Accessibility Improvements
