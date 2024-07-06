@@ -180,7 +180,7 @@ Mock-ups were made using Balsamiq and Figma to help plan and visualize the site 
 
 ## Technologies Used
 
-### ### Development Tools
+ ### Development Tools
 - **Gitpod**: The online IDE used for developing and running the application in a cloud environment.
 - **Git**: For version control and collaboration.
 - **VS Code**: Used for writing and testing code locally before pushing it to the remote repository on Gitpod.
@@ -349,30 +349,30 @@ g
 ### Ongoing Testing
 Continuous testing and user feedback are being gathered to improve and update the website regularly.
 
-### Bugs
+## Bugs
 
-## Hamburger Menu Not Closing
+### Hamburger Menu Not Closing
 - **Issue**: The hamburger menu was not closing when clicked on mobile devices.
 - **Fix**: Added `data-bs-toggle` and `data-bs-target` attributes correctly to the button element. Updated the Bootstrap classes and ensured that the navigation structure matches Bootstrap's recommended structure for a collapsible navbar.
   - **Fix**: Updated the Bootstrap classes and JavaScript code to ensure proper functionality.
 
-## Logo Text Visibility on Small Devices
+### Logo Text Visibility on Small Devices
 - **Issue**: The logo text was cluttering the navbar on small devices.
 - **Fix**: Implemented a utility class to hide the logo text on small devices and display it only on larger devices.
 
-## Accessibility Improvements
+### Accessibility Improvements
 - **Issue**: Several accessibility issues were identified, including insufficient color contrast and links without discernible names.
 - **Fix**: Improved color contrast by updating the CSS. Added `aria-label` attributes to links to provide better context for screen readers.
 
-## Performance Improvements
+### Performance Improvements
 - **Issue**: The website had a low performance score on mobile devices.
 - **Fix**: Converted images to WebP format and added `width` and `height` attributes to images. Deferred loading of non-critical CSS and JavaScript. This resulted in significant improvement in performance scores.
 
-## HTML Validation Errors
+### HTML Validation Errors
 - **Issue**: Various HTML validation errors were found, such as stray start tags.
 - **Fix**: Cleaned up the HTML by ensuring proper nesting and closing of tags. Validated the HTML using W3C Markup Validation Service to ensure compliance with web standards.
 
-## CSS Validation Errors
+### CSS Validation Errors
 - **Issue**: CSS validation errors were present.
 - **Fix**: Cleaned up the CSS by removing unused styles and validating with W3C CSS Validation Service. Ensured that all styles are correctly formatted and adhere to CSS standards.
 
