@@ -2,6 +2,10 @@
 
 The live link can be found here - [Vegan Bliss](https://Danut89.github.io/ProjectMilestone1-Vegan-Bliss/)
 
+![Desktop Mockup](./assets/testing-screenshoots/smartmockups_lya0gn16.jpg)
+
+![Mobile Mockup](./assets/testing-screenshoots/mobile-mockup.png) 
+
 ### Introduction
 
 Welcome to Vegan Bliss, your ultimate destination for embracing a healthier and greener lifestyle through delicious plant-based recipes and insightful tips on vegan living. 
