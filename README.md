@@ -293,7 +293,7 @@ The website's responsiveness was tested on various devices and screen sizes:
 
 ### Login Button
 - **Test**: Clicked the login button to ensure it responds appropriately.
-- **Result**: The login button is functional, though it currently does not have a linked action.
+- **Result**: The login button is functional, using a modal with and email and password inputs.
 
 ### Page Load Performance
 - **Test**: Measured the page load times on both desktop and mobile devices.
