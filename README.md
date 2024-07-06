@@ -1,10 +1,10 @@
 # Vegan Bliss     
 
-The live link can be found here - [Vegan Bliss](https://Danut89.github.io/ProjectMilestone1-Vegan-Bliss/)
+The live website can be found here - [Vegan Bliss](https://Danut89.github.io/ProjectMilestone1-Vegan-Bliss/)
 
-![Desktop Mockup](./assets/testing-screenshoots/smartmockups_lya0gn16.jpg)
+![Desktop Mockup](./assets/readme-screenshoots/smartmockups_lya0gn16.jpg)
 
-![Mobile Mockup](./assets/testing-screenshoots/mobile-mockup.png) 
+![Mobile Mockup](./assets/readme-screenshoots/mobile-mockup.png) 
 
 ### Introduction
 
@@ -104,33 +104,33 @@ The site has 4 main pages:
 - **Testimonials Section**: User testimonials.
 - **Subscribe Section**: Invitation to join the mailing list.
 - **Footer Section**: Icons for Facebook, Twitter, YouTube, and Instagram.
-![Home Page](./assets/testing-screenshoots/home-page.png)
+![Home Page](./assets/readme-screenshoots/home-page.png)
 
 ### Recipes Page
 - **Recipe Listings**: Showcases a variety of vegan recipes with images and detailed instructions.
 - **Download Options**: Provides downloadable recipes in PDF format.
 
-![recipe Page](./assets/testing-screenshoots/recipe-page.png)
+![recipe Page](./assets/readme-screenshoots/recipe-page.png)
 
 ### Lifestyle Page
 - **Health Benefits**: Information about the health benefits of a vegan diet, including weight loss and improved digestion.
 - **Interactive Modals**: Contains modals for additional information.
 - **Meal Prep Tips**: Tips on efficiently planning and preparing vegan meals.
 - **Embedded Videos**: Includes videos for more engaging content.
-![Lifestyle Page](./assets/testing-screenshoots/lifestyle-page.png)
+![Lifestyle Page](./assets/readme-screenshoots/lifestyle-page.png)
 
 ### Contact Page
 - **Contact Form**: A user-friendly form for inquiries and feedback.
 - **Google Maps Integration**: Displays a map for the physical location.
 - **Contact Information**: Lists phone number, address, and email.
-![Contact Page](./assets/testing-screenshoots/contact-page.png)
-![Contact Page](./assets/testing-screenshoots/contact-pagec.png)
+![Contact Page](./assets/readme-screenshoots/contact-page.png)
+![Contact Page](./assets/readme-screenshoots/contact-pagec.png)
 
 ### Footer Section
 - **Mailing List Subscription**: Encourages users to subscribe for updates on promotions, new products, and offers.
 - **Social Media Links**: Provides easy access to follow Vegan Bliss on popular social media platforms including Facebook, - - Twitter, YouTube, and Instagram.
 - **Copyright Information**: Displays the © 2024 Vegan Bliss, Inc to indicate ownership and the year of the content.
-![](./assets/testing-screenshoots/footer.png)
+![](./assets/readme-screenshoots/footer.png)
 
 For consistency of user experience, the site logo, navigation links, and footer remain consistent throughout the site.
 
@@ -143,7 +143,7 @@ The website uses a fresh and natural color palette that reflects the vegan lifes
 
                                        ###The colours mainly used were:
 
-![Desktop Lighthouse Test 2](./assets/readme-screenshoots/colours-used.png)                                            
+![Colours Used](./assets/readme-screenshoots/colours-used.png)                                            
 
 ### Typography
 - **Primary Font**: 'Roboto', taken from Google Fonts, is used throughout the website for its readability and modern look.
@@ -160,10 +160,10 @@ The website uses a fresh and natural color palette that reflects the vegan lifes
 
 Mock-ups were made using Balsamiq and Figma to help plan and visualize the site design. They were created for 3 main screen sizes: mobile, tablet, and desktop.
 
-- [Wireframes: Home Page](./assets/testing-screenshoots/home-wireframe.png)
-- [Wireframes: Recipes Page](./assets/testing-screenshoots/recipe-wireframe.png)
-- [Wireframes: Lifestyle Page](./assets/testing-screenshoots/lifestyle-wireframe.png)
-- [Wireframes: Contact Page](./assets/testing-screenshoots/contact-witreframe.png)
+- [Wireframes: Home Page](./assets/readme-screenshoots/home-wireframe.png)
+- [Wireframes: Recipes Page](./assets/readme-screenshoots/recipe-wireframe.png)
+- [Wireframes: Lifestyle Page](./assets/readme-screenshoots/lifestyle-wireframe.png)
+- [Wireframes: Contact Page](./assets/readme-screenshoots/contact-witreframe.png)
 
 ## Features To Be Implemented in Future
 
@@ -238,12 +238,12 @@ You can clone your repository to create a local copy on your computer. Any chang
 
 ### Code Validation
 - **HTML Validation**: All HTML files were checked and validated using the W3C Markup Validation Service.
-- [index.html validation](./assets/testing-screenshoots/index-html%20validator.png)
-- [featuredrecipe.html validation](./assets/testing-screenshoots/recipe%20validation.png)
-- [lifestyle.html validation](./assets/testing-screenshoots/lifestyle%20validation.png)
-- [contact.html validation](./assets/testing-screenshoots/contact%20validation.png)
+- [index.html validation](./assets/readme-screenshoots/index-html%20validator.png)
+- [featuredrecipe.html validation](./assets/readme-screenshoots/recipe%20validation.png)
+- [lifestyle.html validation](./assets/readme-screenshoots/lifestyle%20validation.png)
+- [contact.html validation](./assets/readme-screenshoots/contact%20validation.png)
 - **CSS Validation**: All CSS files were checked and validated using the W3C CSS Validation Service.
-- [style.css validation](./assets/testing-screenshoots/css%20validation.png)
+- [style.css validation](./assets/readme-screenshoots/css%20validation.png)
 
 ### Browser Compatibility
 The website was tested across multiple browsers to ensure compatibility and responsiveness:
@@ -319,7 +319,7 @@ To ensure the website provides an optimal user experience, I conducted thorough 
 
 #### Desktop Performance and Accessibility Test
 
-![Desktop Lighthouse Test 1](./assets/testing-screenshoots/accesibility-desktop.png)
+![Desktop Lighthouse Test 1](./assets/readme-screenshoots/accesibility-desktop.png)
 
 - **Performance**: Achieved a score of 99. Improvements were made by optimizing images, adding width and height attributes, and minifying CSS and JavaScript files.
 - **Accessibility**: Scored 96, with enhancements such as adding aria-labels to links and buttons to improve screen reader compatibility.
@@ -328,18 +328,18 @@ To ensure the website provides an optimal user experience, I conducted thorough 
 
 #### Mobile Performance and Accessibility Test
 
-![Desktop Lighthouse Test 2](./assets/testing-screenshoots/Desktop%20lighthouse%20test.png)
+![Desktop Lighthouse Test 2](./assets/readme-screenshoots/Desktop%20lighthouse%20test.png)
 
 - **Performance**: Initial test scored 84. Improvements were needed in reducing the Largest Contentful Paint (LCP) and optimizing images.
 - **Accessibility**: Scored 96, similar to the desktop version.
 - **Best Practices**: Scored 100, maintaining web standards.
 - **SEO**: Scored 91, consistent with the desktop version.
 
-![Mobile Lighthouse Test 1](./assets/testing-screenshoots/Mobile%20lighthouse%20test1.png)
+![Mobile Lighthouse Test 1](./assets/readme-screenshoots/Mobile%20lighthouse%20test1.png)
 
 - **Performance**: Subsequent optimizations improved the score to 91. This was achieved by further reducing image sizes, enabling text compression, and eliminating render-blocking resources.
 
-![Mobile Lighthouse Test 3](./assets/testing-screenshoots/mobile-test2.png)
+![Mobile Lighthouse Test 3](./assets/readme-screenshoots/mobile-test2.png)
 g
 - **Performance**: Final optimizations resulted in a score of 99. This was done by ensuring all images are properly sized, minifying CSS and JavaScript files, and leveraging browser caching.
 
