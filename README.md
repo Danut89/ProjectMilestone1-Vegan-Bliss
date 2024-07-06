@@ -66,7 +66,9 @@ As the site owner of Vegan Bliss, my objectives are centered around creating an 
 - **Responsive Design**: Ensures a seamless user experience across all devices, from desktops to mobile phones.
 - **Navigation Bar**: Easy-to-use navigation bar with links to different sections of the site, ensuring smooth navigation.
 - **Hero Section**: Engaging hero section with an attractive background image, compelling title, and a prominent call-to-action 
-                    button.
+- **Join Our Community Button**: Encourages users to subscribe to our mailing list for the latest promotions and updates.
+- **Login Button**: Provides easy access for returning users to log in and manage their profiles or access exclusive content.
+                   
 - **Footer**: Informative footer with social media links, providing additional ways for users to connect.
 
 ### Specific Features
