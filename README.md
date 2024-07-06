@@ -113,6 +113,13 @@ The site has 4 main pages:
 - **Google Maps Integration**: Displays a map for the physical location.
 - **Contact Information**: Lists phone number, address, and email.
 ![Contact Page](./assets/testing-screenshoots/contact-page.png)
+![Contact Page](./assets/testing-screenshoots/contact-pagec.png)
+
+### Footer Section
+- **Mailing List Subscription**: Encourages users to subscribe for updates on promotions, new products, and offers.
+- **Social Media Links**: Provides easy access to follow Vegan Bliss on popular social media platforms including Facebook, - - Twitter, YouTube, and Instagram.
+- **Copyright Information**: Displays the © 2024 Vegan Bliss, Inc to indicate ownership and the year of the content.
+![](./assets/testing-screenshoots/footer.png)
 
 For consistency of user experience, the site logo, navigation links, and footer remain consistent throughout the site.
 
