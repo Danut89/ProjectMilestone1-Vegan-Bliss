@@ -141,15 +141,9 @@ For consistency of user experience, the site logo, navigation links, and footer 
 The colour palette was chosen using the Coolors colour generator website to reflect the fresh and natural vibe of Vegan Bliss.
 The website uses a fresh and natural color palette that reflects the vegan lifestyle, including shades of green, beige, and white.
 
-The colours mainly used were:
-- **White**: #ffffff
-- **Green**: #4CAF50
-- **Black**: #000000
-- **Salmon**: #FA8072
-- **Light Grey**: #f8f9fa
-- **Teal**: #2b7a78
-- **Dark Grey**: #4a4a4a
-- **Medium Grey**: #555555
+                                       ###The colours mainly used were:
+
+![Desktop Lighthouse Test 2](./assets/readme-screenshoots/colours-used.png)                                            
 
 ### Typography
 - **Primary Font**: 'Roboto', taken from Google Fonts, is used throughout the website for its readability and modern look.
