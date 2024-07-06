@@ -160,14 +160,30 @@ Mock-ups were made using Balsamiq and Figma to help plan and visualize the site 
 - **Additional Recipes**: Continuously update the site with new and diverse vegan recipes to keep the content fresh and engaging.
 - **Enhanced Meal Prep Tips**: Provide more detailed meal prep tips and nutritional advice to help users maintain a balanced vegan diet.
 
+
+
+
+
+
+
+
+
 ## Technologies Used
 
 ### Front-End Technologies
-- **HTML5**: For structuring the content of the website.
+- **Gitpod**: The online IDE used for developing and running the application in a cloud environment.
+- **VS Code**: Used for writing and testing code locally before pushing it to the remote repository on Gitpod.
+- **GitHub & Git**: Used for version control and hosting the repository.
+- **HTML5**: The standard markup language used for creating web pages.
 - **CSS3**: For styling the website and creating responsive designs.
-- **Bootstrap 5**: For building responsive, mobile-first websites quickly and easily.
 - **JavaScript**: For adding interactive features and functionality to the website.
+- **Bootstrap 5.3**: For building responsive, mobile-first websites quickly and easily.
 - **Font Awesome**: For adding vector icons and social logos.
+
+
+- **Google Lighthouse**: Used for performance, accessibility, best practices, and SEO testing.
+- **W3C Markup Validation Service**: Used to ensure the HTML and CSS code is error-free.
+
 
 
 ### Development Tools
@@ -376,6 +392,7 @@ These fixes have improved the overall functionality, accessibility, and performa
 ### Media
 - Images used in this project were sourced from [Pexels](https://www.pexels.com/), [Pixabay](https://www.pixabay.com/), and [Unsplash](https://www.unsplash.com/).
 
+
 ### Acknowledgements
 - **Code Institute**: For the learning platform and guidance throughout the project.
 - **Coolors**: For the color palette generation used in the design.
@@ -385,7 +402,12 @@ These fixes have improved the overall functionality, accessibility, and performa
 - **The Vegan Society**: For inspiration and resources related to veganism.
 - **Stack Overflow**: For inspiration and resource code.
 
-.
+
+## Contact Information
+For support or feedback, please contact us at [support@veganbliss.com](mailto:voicuion488@gmail.com).
 
 ### Special Thanks
 - Special thanks to my mentor Moritz friends and family for their support and feedback during the development of this project.
+
+## License
+This project is licensed under the MIT License.
