@@ -147,10 +147,10 @@ The colours mainly used were:
 
 Mock-ups were made using Balsamiq and Figma to help plan and visualize the site design. They were created for 3 main screen sizes: mobile, tablet, and desktop.
 
-- [Wireframes: Home Page](link-to-home-page-wireframe)
-- [Wireframes: Recipes Page](link-to-recipes-page-wireframe)
-- [Wireframes: Lifestyle Page](link-to-lifestyle-page-wireframe)
-- [Wireframes: Contact Page](link-to-contact-page-wireframe)
+- [Wireframes: Home Page](./assets/testing-screenshoots/home-wireframe.png)
+- [Wireframes: Recipes Page](./assets/testing-screenshoots/recipe-wireframe.png)
+- [Wireframes: Lifestyle Page](./assets/testing-screenshoots/lifestyle-wireframe.png)
+- [Wireframes: Contact Page](./assets/testing-screenshoots/contact-witreframe.png)
 
 ## Features To Be Implemented in Future
 
