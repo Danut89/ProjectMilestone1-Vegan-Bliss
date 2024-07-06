@@ -44,7 +44,7 @@ body, html {
 
 .nav-item {
     margin-left: 50px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
     padding-top: 10px;
 }
 
@@ -61,7 +61,7 @@ body, html {
 
 .login-button {
     background-color: #000;
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
     font-weight: 500;
     text-transform: capitalize;
     color: #fff;
@@ -112,7 +112,7 @@ body, html {
 
 .slogan-title {
     text-align: center;
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
     font-weight: 300;
 }
 
@@ -311,7 +311,7 @@ h5 {
 /*-----------------About Section*/
 
 .col-md-6 h3 {
-    font-family: Open Sans;
+    font-family: "Open Sans", sans-serif;
 }
 
 .about-section {
