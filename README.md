@@ -360,6 +360,12 @@ Continuous testing and user feedback are being gathered to improve and update th
 - **Issue**: The logo text was cluttering the navbar on small devices.
 - **Fix**: Implemented a utility class to hide the logo text on small devices and display it only on larger devices.
 
+### 405 Error on Contact Form Submission
+- **Issue:** When attempting to submit the contact form, users encountered a 405 error indicating that the request method was not allowed. This was due to the form attempting to send data to a server endpoint that does not exist for this static website.
+- **Fix:** To resolve this issue, the form's `action` attribute was set to `"#"` and the `method` attribute was set to `"get"`. This ensures that the form submission does not attempt to post data to a server, thereby preventing the 405 error. The form now reloads the page upon submission without any errors.
+
+
+
 ### Accessibility Improvements
 - **Issue**: Several accessibility issues were identified, including insufficient color contrast and links without discernible names.
 - **Fix**: Improved color contrast by updating the CSS. Added `aria-label` attributes to links to provide better context for screen readers.
