@@ -9,7 +9,7 @@ The live link can be found here - [Vegan Bliss](https://Danut89.github.io/Projec
 ### Introduction
 
 Welcome to Vegan Bliss, your ultimate destination for embracing a healthier and greener lifestyle through delicious plant-based recipes and insightful tips on vegan living. 
-Explore our curated collection of vegan recipes, learn about the health benefits of a vegan diet, and join our vibrant community dedicated to making a positive impact on the planet. We believe that veganism is not just a diet but a lifestyle that fosters compassion, health, and environmental stewardship.
+Explore our curated collection of vegan recipes, learn about the health benefits of a vegan diet, and join our vibrant community dedicated to making a positive impact on the planet.
 
 
 ## User Experience (UX)
@@ -46,10 +46,19 @@ The primary goal of Vegan Bliss is to provide users with an engaging platform to
 - **As a Frequent User,** I want to follow Vegan Bliss on their social pages so I am aware of any updates or new recipes.
 - **As a Frequent User,** I want to have quick access to new and updated recipes and health tips.
 
-### Site Owner Goals
-- **As a site owner,** I want to create an attractive and well-designed site that elicits a positive emotional response in users so that they remain on and navigate throughout the site to achieve their goals.
-- **As a site owner,** I want to have a clear and well-structured contact form so I can receive queries and questions from users which will potentially lead to more engagement.
-- **As a site owner,** I want to have clear social media links displayed on the site which may lead to an increased following on channels to help with my branding.
+
+## Site Owner Goals
+
+As the site owner of Vegan Bliss, my objectives are centered around creating an engaging, user-friendly, and effective platform that meets both my business needs and the expectations of my users. Below are the detailed goals I aim to achieve:
+
+- **As a site owner,** I want to create an attractive and well-designed site that elicits a positive emotional response in users, encouraging them to remain on and navigate throughout the site to achieve their goals.
+- **As a site owner,** I want to provide a diverse range of vegan recipes and lifestyle tips to offer valuable content that supports users in their journey towards a healthier, greener lifestyle.
+- **As a site owner,** I want to foster a sense of community through interactive features such as newsletter subscriptions, downloadable recipes, and special offers.
+- **As a site owner,** I want to ensure intuitive navigation and a user-friendly interface, making it easy for users to find the information they need.
+- **As a site owner,** I want to have a clear and well-structured contact form so I can receive queries and questions from users, which will potentially lead to more engagement.
+- **As a site owner,** I want to have clear social media links displayed on the site to increase following on channels and help with branding.
+- **As a site owner,** I want to offer a login feature for personalized user experiences, enhancing interaction and engagement on the site.
+
 
 ## Features
 
@@ -77,14 +86,11 @@ The primary goal of Vegan Bliss is to provide users with an engaging platform to
   - **Nutritional Information**: Nutritional breakdowns for each meal, helping users make informed choices.
 
 ### Interactive Features
-- **Contact Form**: 
-  - **User-Friendly Form**: Allows users to easily send inquiries or feedback.
+ 
+  - **User-Friendly Contact Form**: Allows users to easily send inquiries or feedback.
   - **Google Maps Integration**: Embedded Google Maps to show the physical location of the business.
-- **Scroll Animations**: Smooth scroll animations for a more dynamic and engaging user experience.
+  - **Custom Animations**: Various CSS animations for buttons and images to draw attention and improve user interaction.
 
-### Advanced Features
-- **Parallax Scrolling**: Parallax effect in the hero section, creating a modern and visually appealing experience.
-- **Custom Animations**: Various CSS animations for buttons and images to draw attention and improve user interaction.
 
 ## Structure
 
@@ -92,18 +98,23 @@ The site has 4 main pages:
 
 ### Home Page
 - **Hero Image**: Features a visually appealing hero image of vegan dishes.
-- **Call to Action**: Includes an eye-catching call to action button directing users to the Contact page.
+- **Call to Action**:"Join Our Community" opens a subscription modal.
+- **Benefits Section**: Benefits of a vegan lifestyle.
 - **About Us**: Contains a brief introduction and background of Vegan Bliss.
+- **Testimonials Section**: User testimonials.
+- **Subscribe Section**: Invitation to join the mailing list.
+- **Footer Section**: Icons for Facebook, Twitter, YouTube, and Instagram.
 ![Home Page](./assets/testing-screenshoots/home-page.png)
 
 ### Recipes Page
 - **Recipe Listings**: Showcases a variety of vegan recipes with images and detailed instructions.
 - **Download Options**: Provides downloadable recipes in PDF format.
-- **Interactive Modals**: Contains modals for additional recipe details.
+
 ![recipe Page](./assets/testing-screenshoots/recipe-page.png)
 
 ### Lifestyle Page
 - **Health Benefits**: Information about the health benefits of a vegan diet, including weight loss and improved digestion.
+- **Interactive Modals**: Contains modals for additional information.
 - **Meal Prep Tips**: Tips on efficiently planning and preparing vegan meals.
 - **Embedded Videos**: Includes videos for more engaging content.
 ![Lifestyle Page](./assets/testing-screenshoots/lifestyle-page.png)
@@ -123,6 +134,7 @@ The site has 4 main pages:
 
 For consistency of user experience, the site logo, navigation links, and footer remain consistent throughout the site.
 
+
 ## Design
 
 ### Colour Scheme
@@ -141,7 +153,7 @@ The colours mainly used were:
 
 ### Typography
 - **Primary Font**: 'Roboto', taken from Google Fonts, is used throughout the website for its readability and modern look.
-- **Secondary Font**: 'Open Sans', also from Google Fonts, is used for headers to create a clear distinction between content areas.
+- **Secondary Font**: 'Open Sans', also from Google Fonts, is used to create a clear distinction between content areas.
 
 ### Imagery
 - All images were sourced from [Pexels](https://www.pexels.com/), [Pixabay](https://www.pixabay.com/), and [Unsplash](https://www.unsplash.com/).
@@ -165,24 +177,16 @@ Mock-ups were made using Balsamiq and Figma to help plan and visualize the site 
 - **Recipe Rating System**: Add a feature allowing users to rate and review recipes, helping others find the best dishes.
 - **Interactive Meal Planner**: Develop a tool for users to plan their meals for the week, integrating it with the recipes available on the site.
 - **Video Tutorials**: Incorporate video tutorials for recipes and meal prep tips to offer a more interactive learning experience.
-- **Live Chat Support**: Add a live chat feature for instant support and advice on veganism and meal preparation.
 - **Community Forum**: Create a community forum where users can share their experiences, tips, and recipes, fostering a sense of community.
-- **E-commerce Integration**: Integrate an e-commerce platform for users to purchase vegan ingredients and products directly from the site.
 - **Additional Recipes**: Continuously update the site with new and diverse vegan recipes to keep the content fresh and engaging.
 - **Enhanced Meal Prep Tips**: Provide more detailed meal prep tips and nutritional advice to help users maintain a balanced vegan diet.
 
 
-
-
-
-
-
-
-
 ## Technologies Used
 
-### Front-End Technologies
+### ### Development Tools
 - **Gitpod**: The online IDE used for developing and running the application in a cloud environment.
+- **Git**: For version control and collaboration.
 - **VS Code**: Used for writing and testing code locally before pushing it to the remote repository on Gitpod.
 - **GitHub & Git**: Used for version control and hosting the repository.
 - **HTML5**: The standard markup language used for creating web pages.
@@ -190,23 +194,11 @@ Mock-ups were made using Balsamiq and Figma to help plan and visualize the site 
 - **JavaScript**: For adding interactive features and functionality to the website.
 - **Bootstrap 5.3**: For building responsive, mobile-first websites quickly and easily.
 - **Font Awesome**: For adding vector icons and social logos.
-
-
-- **Google Lighthouse**: Used for performance, accessibility, best practices, and SEO testing.
-- **W3C Markup Validation Service**: Used to ensure the HTML and CSS code is error-free.
-
-
-
-### Development Tools
-- **Gitpod**: The code editor used for developing the website.
-- **Git**: For version control and collaboration.
-- **GitHub**: For hosting the project repository and managing version control.
-- **Visual Studio Code**: another development environment.
 - **Figma**: For creating wireframes and design prototypes.
 - **Balsamiq**: For creating wireframes and mockups.
-- **W3C Validator**: For validating code
+- **Google Lighthouse**: Used for performance, accessibility, best practices, and SEO testing.
+- **W3C Validation Service**: Used to ensure the HTML and CSS code is error-free.
 - **Squoosh**: For resing images
-
 
 
 ### Additional Resources
