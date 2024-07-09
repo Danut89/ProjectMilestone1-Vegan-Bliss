@@ -96,6 +96,7 @@ body, html {
     background-color: #f8f9fa;
     padding: 60px 0;
     position: relative;
+    margin-top: 100px;
 }
 
 .hero-text {
@@ -225,6 +226,7 @@ body, html {
     font-weight: bold;
     color: #2b7a78;
     text-transform: capitalize;
+    padding-top: 100px;
 }
 
 h5 {
@@ -289,6 +291,7 @@ h5 {
     font-weight: bold;
     color: #2b7a78;
     text-transform: capitalize;
+    padding-top: 100px;
 }
 
 .card-title {
@@ -432,11 +435,10 @@ iframe {
 .content-container {
     width: 50%;
     font-weight: bold;
-    background-color: rgba(43, 122, 120, 0.3);
     border: 2px solid #4CAF50;
     padding: 15px;
     color: #e4e2e2;
-    background-color: rgba(250, 128, 114, 0.1);
+    background-color: white;
 }
 
 
@@ -536,6 +538,7 @@ iframe {
     background-color: #f8f9fa;
     padding: 60px 0;
 }
+
 
 #contact p {
     color: #333;
