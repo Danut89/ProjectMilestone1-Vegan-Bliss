@@ -96,10 +96,17 @@ As the site owner of Vegan Bliss, my objectives are centered around creating an 
 
 ## Structure
 
+### Nav Bar
 The site has 4 main pages:
+- **Navigation**: The navbar includes links to essential sections of the website such as Home, Recipes, Lifestyle, About Us, and Contact Us, ensuring easy and intuitive navigation.
+- **Branding**: Features a distinct logo image and text to reinforce the Vegan Bliss brand identity.
+- **Sticky Design**: The navbar remains fixed at the top of the page while scrolling, providing constant access to navigation links.
+- **Responsive Design**: The navbar is fully responsive with a collapsible menu for smaller screens, maintaining a user-friendly experience across all devices.
+- **Styling**: Styled with a green (#4CAF50) background, the navbar links change color on hover to enhance the visual feedback for users.
+- **Login Button**: Includes a 'Login' button that triggers a modal for user authentication, styled to stand out with an outline and hover effect.
+![Nav Bar](./assets/readme-screenshoots/nav-bar.png)
 
 ### Home Page
-- **Nav Bar**: Features a visually appealing hero image of vegan dishes.
 - **Hero Image**: Features a visually appealing hero image of vegan dishes.
 - **Call to Action**:"Join Our Community" opens a subscription modal.
 - **Benefits Section**: Benefits of a vegan lifestyle.
@@ -112,7 +119,6 @@ The site has 4 main pages:
 ### Recipes Page
 - **Recipe Listings**: Showcases a variety of vegan recipes with images and detailed instructions.
 - **Download Options**: Provides downloadable recipes in PDF format.
-
 ![recipe Page](./assets/readme-screenshoots/recipe-page.png)
 
 ### Lifestyle Page
@@ -126,14 +132,14 @@ The site has 4 main pages:
 - **Contact Form**: A user-friendly form for inquiries and feedback.
 - **Google Maps Integration**: Displays a map for the physical location.
 - **Contact Information**: Lists phone number, address, and email.
-![Contact Page](./assets/readme-screenshoots/contact-page.png)
+![Contact Page](./assets/readme-screenshoots/contact-screenshoot.png)
 ![Contact Page](./assets/readme-screenshoots/contact-pagec.png)
 
 ### Footer Section
 - **Mailing List Subscription**: Encourages users to subscribe for updates on promotions, new products, and offers.
 - **Social Media Links**: Provides easy access to follow Vegan Bliss on popular social media platforms including Facebook, - - Twitter, YouTube, and Instagram.
 - **Copyright Information**: Displays the © 2024 Vegan Bliss, Inc to indicate ownership and the year of the content.
-![](./assets/readme-screenshoots/footer.png)
+![Footer](./assets/readme-screenshoots/footer.png)
 
 For consistency of user experience, the site logo, navigation links, and footer remain consistent throughout the site.
 
