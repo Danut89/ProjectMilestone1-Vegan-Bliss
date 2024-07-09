@@ -15,6 +15,11 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -23,6 +28,7 @@ body, html {
     background-color: #fff;
     min-height: 100vh;
 }
+
 /*-----------------Header section*/
 
 #header-container {
@@ -61,7 +67,7 @@ body, html {
 
 .login-button {
     background-color: #000;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-transform: capitalize;
     color: #fff;
@@ -77,7 +83,6 @@ body, html {
         display: none;
     }
 }
-
 
 /*-----------------Hero-section */
 
@@ -400,10 +405,14 @@ iframe {
     margin-top: 30px;
 }
 
+.mail-box-style {
+    background-color: #f8f9fa; border: 2px solid #4CAF50;
+}
+
 .first-title {
     font-weight: bold;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Roboto';
     color: #2b7a78;
     font-size: 2.5rem;
@@ -440,6 +449,19 @@ iframe {
     font-family: 'Open Sans', sans-serif;
 }
 
+.mail-button  {
+    background-color: #2b7a78;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    font-family: 'Roboto, sans Serif';
+}
+
+.mail-button:hover {
+    background-color: salmon;
+    border: 1px solid black;
+}
+
 .footer_newsletter_form {
     display: flex;
     justify-content: center;
@@ -465,23 +487,40 @@ iframe {
     overflow: hidden;
     background-color: #4CAF50;
     margin-top: 25px;
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff;
 }
 
 .social-network {
     text-align: center;
+
 }
 
 .social-network li {
     display: inline;
+    margin: 0 0.5rem;
 }
 
 .social-network i {
     font-size: 150%;
     margin: 5px;
     padding: 15px;
-    color: #000;
 }
 
+.footer-box .social-network li a {
+    color: #fff;
+    font-size: 1.25rem;
+    transition: color 0.3s ease;
+}
+.footer-box .social-network li a:hover {
+    color: #ff7f50;
+}
+
+.back-to-top {
+    display: flex;
+    justify-content: center;
+}
 /*-----------------Contact section*/
 
 #contact {

@@ -99,6 +99,7 @@ As the site owner of Vegan Bliss, my objectives are centered around creating an 
 The site has 4 main pages:
 
 ### Home Page
+- **Nav Bar**: Features a visually appealing hero image of vegan dishes.
 - **Hero Image**: Features a visually appealing hero image of vegan dishes.
 - **Call to Action**:"Join Our Community" opens a subscription modal.
 - **Benefits Section**: Benefits of a vegan lifestyle.
@@ -315,20 +316,19 @@ These user tests confirm that the website is fully functional and user-friendly,
 
 ## Testing
 
-### Performance and Accessibility Testing
+### Performance and Accessibility Testing (Home page)
 
 To ensure the website provides an optimal user experience, I conducted thorough testing using Lighthouse in Chrome Developer Tools. The tests focused on performance, accessibility, best practices, and SEO.
 
 #### Desktop Performance and Accessibility Test
 
+#### Home Page
 ![Desktop Lighthouse Test 1](./assets/readme-screenshoots/accesibility-desktop.png)
 
 - **Performance**: Achieved a score of 99. Improvements were made by optimizing images, adding width and height attributes, and minifying CSS and JavaScript files.
 - **Accessibility**: Scored 96, with enhancements such as adding aria-labels to links and buttons to improve screen reader compatibility.
 - **Best Practices**: Scored 100, ensuring the site follows web standards and best practices.
 - **SEO**: Scored 91, indicating good search engine optimization but with room for further improvements.
-
-#### Mobile Performance and Accessibility Test
 
 ![Desktop Lighthouse Test 2](./assets/readme-screenshoots/Desktop%20lighthouse%20test.png)
 
@@ -337,13 +337,91 @@ To ensure the website provides an optimal user experience, I conducted thorough 
 - **Best Practices**: Scored 100, maintaining web standards.
 - **SEO**: Scored 91, consistent with the desktop version.
 
+#### Mobile Performance and Accessibility Test
+
+#### Home Page
 ![Mobile Lighthouse Test 1](./assets/readme-screenshoots/Mobile%20lighthouse%20test1.png)
 
 - **Performance**: Subsequent optimizations improved the score to 91. This was achieved by further reducing image sizes, enabling text compression, and eliminating render-blocking resources.
 
-![Mobile Lighthouse Test 3](./assets/readme-screenshoots/mobile-test2.png)
-g
+![Mobile Lighthouse Test 2](./assets/readme-screenshoots/mobile-test2.png)
+
 - **Performance**: Final optimizations resulted in a score of 99. This was done by ensuring all images are properly sized, minifying CSS and JavaScript files, and leveraging browser caching.
+
+
+### Performance and Accessibility Testing (Recipe page)
+
+#### Desktop Performance and Accessibility Test
+
+#### Recipe Page
+![Desktop Lighthouse Test 1](./assets/readme-screenshoots/desktop-recipe-test1.png)
+![Desktop Lighthouse Test 2](./assets/readme-screenshoots/desktop-recipe-test2.png)
+
+- **Performance**: Initial test scored 84. Improvements were made by reducing the Largest Contentful Paint (LCP) and optimizing images.
+- **Accessibility**: Scored 96, similar to the desktop version.
+- **Best Practices**: Scored 100, maintaining web standards.
+- **SEO**: Scored 91, consistent with the desktop version.
+
+#### Mobile Performance and Accessibility Test
+
+#### Recipe Page
+![Mobile Lighthouse Test 1](./assets/readme-screenshoots/mobile-recipe-test1.png)
+![Mobile Lighthouse Test 2](./assets/readme-screenshoots/mobile-recipe-test2.png)
+
+- **Performance**: Initial test scored 84. Improvements were made by reducing the Largest Contentful Paint (LCP) and optimizing images.
+- **Accessibility**: Scored 96, similar to the desktop version.
+- **Best Practices**: Scored 100, maintaining web standards.
+- **SEO**: Scored 91, consistent with the desktop version.
+
+
+### Performance and Accessibility Testing (Lifestyle page)
+
+#### Desktop Performance and Accessibility Test
+
+#### Lifestyle Page
+![Desktop Lighthouse Test 1](./assets/readme-screenshoots/desktop-lifestyle-test1.png)
+![Desktop Lighthouse Test 2](./assets/readme-screenshoots/desktop-lifestyle-test2.png)
+
+- **Performance**: Achieved a score of 88. Optimizations included reducing image sizes, enabling text compression, and eliminating render-blocking resources.
+- **Accessibility**: Scored 96, with enhancements similar to those applied on other pages.
+- **Best Practices**: Scored 96, ensuring consistent adherence to web standards.
+- **SEO**: Scored 91, indicating good search engine optimization but with room for further improvements.
+
+
+#### Mobile Performance and Accessibility Test
+
+#### Lifestyle Page
+![Mobile Lighthouse Test 1](./assets/readme-screenshoots/mobile-lifestyle-test1.png)
+![Mobile Lighthouse Test 2](./assets/readme-screenshoots/mobile-lifestyle-test2.png)
+
+- **Performance**: Achieved a score of 88. Optimizations included reducing image sizes, enabling text compression, and eliminating render-blocking resources.
+- **Accessibility**: Scored 96, with enhancements similar to those applied on other pages.
+- **Best Practices**: Scored 96, ensuring consistent adherence to web standards.
+- **SEO**: Scored 91, indicating good search engine optimization but with room for further improvements.
+
+
+### Performance and Accessibility Testing (Contact page)
+
+#### Desktop Performance and Accessibility Test
+
+#### Contact Page
+![Desktop Lighthouse Test 1](./assets/readme-screenshoots/desktop-contact-test1.png)
+![Desktop Lighthouse Test 2](./assets/readme-screenshoots/desktop-contact-test2.png)
+
+- **Performance**: Achieved a score of 94. Subsequent optimizations included reducing render-blocking resources and enabling text compression.
+- **Accessibility**: Scored 96, with improvements such as adding aria-labels and ensuring proper form structure.
+- **Best Practices**: Scored 79, with issues related to third-party cookies and browser errors being logged. Efforts were made to address these issues.
+- **SEO**: Scored 91, indicating good search engine optimization with room for further improvements.
+
+#### Mobile Performance and Accessibility Test
+
+#### Contact Page
+![Mobile Lighthouse Test 1](./assets/readme-screenshoots/mobile-contact-test.png)
+
+- **Performance**: Scored 95. Optimizations such as reducing image sizes and eliminating render-blocking resources were applied.
+- **Accessibility**: Scored 96, with improvements such as adding aria-labels and ensuring proper form structure.
+- **Best Practices**: Scored 79. Despite improvements, the use of third-party cookies affects the score. The decision was made to keep the iframe maps for their functionality.
+- **SEO**: Scored 91, indicating effective search engine optimization with room for minor improvements.
 
 
 ### Ongoing Testing
@@ -368,6 +446,10 @@ Continuous testing and user feedback are being gathered to improve and update th
 - **Issue:** Similar to the contact form, the subscribe button in the footer was also encountering a 405 error upon submission. This was because the form was attempting to send data to a non-existent server endpoint.
 
 - **Fix:** The same method used to fix the contact form issue was applied here. The form's `action` attribute was set to `"#"` and the `method` attribute was set to `"get"`. This change prevents the form from attempting to post data and reloads the page upon submission without any errors.
+
+### Font Display Issues on Mobile
+- **Issue**: The Roboto font was not displaying correctly on mobile devices.
+- **Fix**: Ensure the font is properly imported and loaded across all devices.
 
 
 
