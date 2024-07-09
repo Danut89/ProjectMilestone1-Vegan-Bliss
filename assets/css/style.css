@@ -234,12 +234,15 @@ h5 {
     background-color: rgba(43, 122, 120, 0.2);
     padding-left: 5px;
     padding-right: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-btn {
     background-color: #2b7a78;
     font-weight: 400;
     color: #fff;
+    margin-top: auto;
 }
 
 .card-btn:hover {
