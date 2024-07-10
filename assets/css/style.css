@@ -58,6 +58,11 @@ body, html {
     font-family: "Open Sans", sans-serif;
     padding-top: 10px;
 }
+/* Align nav items and button vertically*/
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
 
 .nav-item, .nav-link {
     color: #000;
@@ -76,6 +81,8 @@ body, html {
     font-weight: 500;
     text-transform: capitalize;
     color: #fff;
+    align-items: center;
+    height: 100%;
 }
 
 .login-button:hover {
@@ -416,6 +423,7 @@ iframe {
     margin-top: 30px;
     background: linear-gradient(135deg, #2b7a78 0%, #4caf50 100%);
     color: #fff;
+    
 }
 
 .mail-box-style {
@@ -438,6 +446,10 @@ iframe {
     border: 2px solid #4CAF50;
     padding: 15px;
     background-color: white;
+    /* Adjusted for mobile view */
+    width: auto;
+    margin-left: 10px; 
+    margin-right: 10px;
 }
 
 .content {
@@ -526,9 +538,28 @@ iframe {
     color: #ff7f50;
 }
 
-.back-to-top {
-    display: flex;
-    justify-content: center;
+/* new media query */
+@media (max-width: 576px) {
+    .footer-box {
+        text-align: left; 
+        padding-left: 1rem; 
+    }
+    
+    .footer-box .social-network {
+        text-align: left; 
+        padding-left: 1rem; 
+    }
+
+    .footer-box .social-network li {
+        display: inline; 
+        margin: 0 0.2rem; 
+    }
+
+    .footer-box .social-network i {
+        font-size: 120%; 
+        margin: 5px;
+        padding: 10px;
+    }
 }
 /*-----------------Contact section*/
 

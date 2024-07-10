@@ -139,7 +139,7 @@ The site has 4 main pages:
 - **Mailing List Subscription**: Encourages users to subscribe for updates on promotions, new products, and offers.
 - **Social Media Links**: Provides easy access to follow Vegan Bliss on popular social media platforms including Facebook, - - Twitter, YouTube, and Instagram.
 - **Copyright Information**: Displays the © 2024 Vegan Bliss, Inc to indicate ownership and the year of the content.
-![Footer](./assets/readme-screenshoots/footer.png)
+![Footer](./assets//readme-screenshoots/footer-screenshoot.png)
 
 For consistency of user experience, the site logo, navigation links, and footer remain consistent throughout the site.
 
@@ -430,6 +430,17 @@ To ensure the website provides an optimal user experience, I conducted thorough 
 - **SEO**: Scored 91, indicating effective search engine optimization with room for minor improvements.
 
 
+### Tablet  Performance and Accessibility Test 
+
+### Home page
+![Tablet Lighthouse Test 1](./assets/readme-screenshoots/tablet-test-homepage.png)
+
+- **Performance**: Scored 92. The website performed well with optimized images, text compression, and minified CSS and JavaScript files. Further improvements can be made by addressing the render-blocking resources.
+- **Accessibility**: Achieved a score of 96. Added aria-labels to links and buttons for better screen reader compatibility.
+- **Best Practices**: Perfect score of 100. The site adheres to all recommended web standards and best practices.
+- **SEO**: Scored 91. Good SEO practices are in place, but there is potential for further optimization.
+
+
 ### Ongoing Testing
 Continuous testing and user feedback are being gathered to improve and update the website regularly.
 
@@ -450,14 +461,23 @@ Continuous testing and user feedback are being gathered to improve and update th
 
 ### 405 Error on Subscribe Button
 - **Issue:** Similar to the contact form, the subscribe button in the footer was also encountering a 405 error upon submission. This was because the form was attempting to send data to a non-existent server endpoint.
-
 - **Fix:** The same method used to fix the contact form issue was applied here. The form's `action` attribute was set to `"#"` and the `method` attribute was set to `"get"`. This change prevents the form from attempting to post data and reloads the page upon submission without any errors.
+
+```html
+<!-- Original Form -->
+<form action="submit_form.php" method="GET">
+    <!-- Form fields -->
+</form>
+
+<!-- Updated Form -->
+<form action="submit_form.php" method="POST">
+    <!-- Form fields -->
+</form>
+```
 
 ### Font Display Issues on Mobile
 - **Issue**: The Roboto font was not displaying correctly on mobile devices.
 - **Fix**: Ensure the font is properly imported and loaded across all devices.
-
-
 
 ### Accessibility Improvements
 - **Issue**: Several accessibility issues were identified, including insufficient color contrast and links without discernible names.
@@ -474,6 +494,58 @@ Continuous testing and user feedback are being gathered to improve and update th
 ### CSS Validation Errors
 - **Issue**: CSS validation errors were present.
 - **Fix**: Cleaned up the CSS by removing unused styles and validating with W3C CSS Validation Service. Ensured that all styles are correctly formatted and adhere to CSS standards.
+
+### Navbar Button Alignment
+
+**Issue:** The "Login" button was not aligned with the navigation links.
+
+**Fix:** Added CSS to align the button vertically with the navbar links.
+
+```css
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+```
+
+### Fixed Bugs for Mobile Version
+
+- **Navbar**: Ensured the sticky navbar works seamlessly on mobile devices for better navigation.
+- **Footer**: Adjusted footer layout to ensure social media icons align properly and do not overlap.
+- **Fix**: Added CSS flexbox properties to ensure proper alignment of the social media icons in the footer on all screen sizes.
+
+```css
+.social-network {
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.social-network li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-network i {
+    font-size: 150%;
+    padding: 10px;
+}
+```
+
+
+
+
+- **Mailing List Subscription**: Added responsive padding to the subscription box for better visual appeal and readability on mobile screens.
+- **Images**: Properly sized images to reduce load time and improve overall performance on mobile devices.
+- **Text Compression**: Enabled text compression for faster content delivery.
 
 These fixes have improved the overall functionality, accessibility, and performance of the website.
 
