@@ -4,7 +4,7 @@ The live website can be found here - [Vegan Bliss](https://Danut89.github.io/Pro
 
 ![Desktop Mockup](./assets/readme-screenshoots/smartmockups_lya0gn16.jpg)
 
-![Mobile Mockup](./assets/readme-screenshoots/mobile-mockup.png) 
+![Mobile Mockup](./assets/readme-screenshoots/smartmockups_lyf3cgtc.png) 
 
 ### Introduction
 
@@ -574,7 +574,7 @@ These fixes have improved the overall functionality, accessibility, and performa
 
 
 ## Contact Information
-For support or feedback, please contact us at [support@veganbliss.com](mailto:voicuion488@gmail.com).
+For support or feedback, please contact us at [voicuion488@gmail.com].
 
 ### Special Thanks
 - Special thanks to my mentor Moritz friends and family for their support and feedback during the development of this project.
