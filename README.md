@@ -149,8 +149,7 @@ For consistency of user experience, the site logo, navigation links, and footer 
 ### Colour Scheme
 The colour palette was chosen using the Coolors colour generator website to reflect the fresh and natural vibe of Vegan Bliss.
 The website uses a fresh and natural color palette that reflects the vegan lifestyle, including shades of green, beige, and white.
-
-                                       ###The colours mainly used were:
+  ### The colours mainly used were:
 
 ![Colours Used](./assets/readme-screenshoots/colours-used.png)                                            
 
@@ -247,7 +246,7 @@ You can clone your repository to create a local copy on your computer. Any chang
 
 ## Automaded Testing
 
-### Lighthouse 
+### Lighthouse testing
 
 To ensure the website provides an optimal user experience, I conducted thorough testing using Lighthouse in Chrome Developer Tools. The tests focused on performance, accessibility, best practices, and SEO.
 
@@ -424,8 +423,6 @@ The website was tested across multiple browsers to ensure compatibility and resp
 ### Ongoing Testing
 Continuous testing and user feedback are being gathered to improve and update the website regularly.
 
-
-
 ## Bugs
 
 ### Hamburger Menu Not Closing
@@ -447,19 +444,15 @@ Continuous testing and user feedback are being gathered to improve and update th
 
 ```html
 <!-- Original Form -->
-<form action="submit_form.php" method="GET">
+<form action="submit_form.php" method="POST">
     <!-- Form fields -->
 </form>
 
 <!-- Updated Form -->
-<form action="submit_form.php" method="POST">
+<form action="#" method="get">
     <!-- Form fields -->
 </form>
 ```
-
-### Font Display Issues on Mobile
-- **Issue**: The Roboto font was not displaying correctly on mobile devices.
-- **Fix**: Ensure the font is properly imported and loaded across all devices.
 
 ### Accessibility Improvements
 - **Issue**: Several accessibility issues were identified, including insufficient color contrast and links without discernible names.
@@ -478,9 +471,7 @@ Continuous testing and user feedback are being gathered to improve and update th
 - **Fix**: Cleaned up the CSS by removing unused styles and validating with W3C CSS Validation Service. Ensured that all styles are correctly formatted and adhere to CSS standards.
 
 ### Navbar Button Alignment
-
 **Issue:** The "Login" button was not aligned with the navigation links.
-
 **Fix:** Added CSS to align the button vertically with the navbar links.
 
 ```css
@@ -499,8 +490,12 @@ Continuous testing and user feedback are being gathered to improve and update th
 
 ### Fixed Bugs for Mobile Version
 
-- **Navbar**: Ensured the sticky navbar works seamlessly on mobile devices for better navigation.
-- **Footer**: Adjusted footer layout to ensure social media icons align properly and do not overlap.
+### Navbar
+- **Issue**: Ensured the sticky navbar works seamlessly on mobile devices for better navigation.
+- **Fix**: Adjusted the CSS for the sticky navbar to ensure it functions correctly across all devices.
+
+### Footer
+- **Issue**: Footer layout was not consistent in mobile version to ensure social media icons align properly and do not overlap.
 - **Fix**: Added CSS flexbox properties to ensure proper alignment of the social media icons in the footer on all screen sizes.
 
 ```css
@@ -522,17 +517,28 @@ Continuous testing and user feedback are being gathered to improve and update th
 }
 ```
 
-
-
-
-- **Mailing List Subscription**: Added responsive padding to the subscription box for better visual appeal and readability on mobile screens.
+### Mailing List Subscription Box on Mobile
+**Issue**: The mailing list subscription box did not have sufficient padding on mobile screens, making it look cramped and less readable.
+**Fix**: Added responsive padding to improve visual appeal and readability.
+ 
+### Images adn Text
 - **Images**: Properly sized images to reduce load time and improve overall performance on mobile devices.
 - **Text Compression**: Enabled text compression for faster content delivery.
 
+### Font Display Issues on Mobile
+- **Issue**: The Roboto font was not displaying correctly on mobile devices.
+- **Fix**: Ensure the font is properly imported and loaded across all devices.
+
+### Tablet View Layout Issue for Lifestyle Section
+**Issue**: On tablet view, the columns in the lifestyle section did not display correctly, showing 3 columns instead of 2.
+**Fix**: Utilized Bootstrap classes to adjust the column layout for medium-sized screens.
+
+```<div class="col-md-6 col-lg-4">```
+
 These fixes have improved the overall functionality, accessibility, and performance of the website.
 
-
 ### Known:
+
 - **Map Alignment**: On medium-sized devices, the Google Map on the contact page does not center perfectly over the contact details. This requires further adjustment in CSS.
 
 ## Credits
