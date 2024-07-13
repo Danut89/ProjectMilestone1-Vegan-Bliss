@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
+/*-----------------General*/
+
 html {
     box-sizing: border-box;
   }
@@ -58,15 +60,14 @@ body, html {
     font-family: "Open Sans", sans-serif;
     padding-top: 10px;
 }
-/* Align nav items and button vertically*/
+
 .navbar-nav {
     display: flex;
-    align-items: center;
+    align-items: center;            /* Align nav items and button vertically*/
 }
 
 .nav-item, .nav-link {
     color: #000;
-    font-weight: 500;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -101,7 +102,6 @@ body, html {
 .hero-section {
     padding: 60px 0;
     background-color: #f8f9fa;
-    padding: 60px 0;
     position: relative;
     margin-top: 100px;
 }
@@ -325,12 +325,6 @@ h5 {
     transform: translateY(-20px);
 }
 
-.video-frame {
-    border: none;   
-    border: 1px solid #000; 
-    border-radius: 10px; 
-}
-
 /*-----------------About Section*/
 
 .col-md-6 h3 {
@@ -427,7 +421,7 @@ iframe {
 }
 
 .mail-box-style {
-    background-color: #f8f9fa; border: 2px solid #4CAF50;
+    background-color: #f8f9fa; 
     border: 2px solid #4CAF50;
 }
 
@@ -441,14 +435,13 @@ iframe {
 }
 
 .content-container {
-    width: 50%;
     font-weight: bold;
     border: 2px solid #4CAF50;
     padding: 15px;
     background-color: white;
-    /* Adjusted for mobile view */
+    
     width: auto;
-    margin-left: 10px; 
+    margin-left: 10px;        /* Adjusted for mobile view */
     margin-right: 10px;
 }
 
