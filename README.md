@@ -350,55 +350,30 @@ To ensure the website provides an optimal user experience, I conducted thorough 
 
 ## Manual Testing
 
-### User stories Testing
+## User Stories Testing
 
-#### 1. Navbar Links
-- **Test**: Clicked on each navbar link to ensure they navigate to the correct sections/pages.
-- **Result**: All navbar links function correctly, directing the user to the appropriate sections or pages.
+| Feature                    | Expected Outcome                                                                                          | Testing Performed                         | Result                                                                                          | Pass/Fail |
+|----------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------|-----------|
+| Navbar Links               | When clicked, they navigate to the correct sections/pages.                                                | Clicked on each navbar link              | All navbar links function correctly, directing the user to the appropriate sections or pages.   | Pass      |
+| Hamburger Menu             | The menu opens and closes correctly on mobile devices.                                                    | Tested on mobile devices                 | The hamburger menu opens and closes as expected. The logo text is hidden on small devices.      | Pass      |
+| Join Our Community Button  | The modal opens when the button is clicked.                                                               | Clicked the button                       | The modal opens successfully, allowing users to sign up for the community.                      | Pass      |
+| Modal Functionality        | The modal captures the email address and closes properly when the close button is clicked.                | Interacted with the modal                | The modal functions correctly, capturing the email address and closing properly.                | Pass      |
+| Downloadable Recipes       | Recipes download correctly from the recipes page.                                                         | Attempted to download recipes            | Recipes download correctly, providing users with access to vegan recipes in a convenient format. | Pass      |
+| Contact Form               | The contact form captures user input and submits without errors.                                          | Filled out and submitted the form        | The contact form successfully captures user input and submits without errors.                   | Pass      |
+| Login Button               | The login button responds appropriately.                                                                  | Clicked the login button                 | The login button is functional, using a modal with email and password inputs.                   | Pass      |
+| Page Load Performance      | The website loads quickly on both desktop and mobile devices.                                             | Measured the page load times             | The website loads quickly, with significant improvements seen after performance optimizations.  | Pass      |
+| Accessibility Features     | The website is accessible with proper ARIA labels and keyboard navigability.                              | Used screen readers and keyboard nav     | The website is accessible, with proper ARIA labels and keyboard navigability.                   | Pass      |
+| Image Load Times           | Images load efficiently due to optimization (e.g., using WebP format).                                     | Verified the load times for images       | Images load efficiently.                                                                        | Pass      |
+| Footer Links               | Social media links open correctly in new tabs.                                                            | Clicked on social media links in footer  | All social media links open correctly in new tabs.                                              | Pass      |
+| Overall User Experience    | The website provides a smooth and intuitive user experience, with all features functioning as intended.   | Conducted a general usability test       | The website provides a smooth and intuitive user experience.                                    | Pass      |
+| Recipe Buttons             | "Get Recipe" buttons on the recipes page respond correctly.                                               | Clicked "Get Recipe" buttons             | Buttons function correctly, directing users to the recipe download.                             | Pass      |
+| Learn More Buttons         | "Learn More" buttons on lifestyle page navigate to additional information.                                | Clicked "Learn More" buttons             | Buttons navigate correctly to the additional information.                                       | Pass      |
+| Sticky Navbar              | Navbar remains at the top of the page when scrolling.                                                     | Scrolled through the page                | Sticky navbar works as intended, staying at the top of the page.                                | Pass      |
+| Mailing List Subscription  | The mailing list subscription form works correctly, capturing emails.                                     | Entered an email and subscribed          | Subscription form captures emails and shows success message.                                    | Pass      |
+| Featured Recipes Section   | Recipes display correctly in the featured recipes section.                                                | Reviewed the featured recipes section    | Recipes are displayed correctly with images, titles, and descriptions.                          | Pass      |
+| Lifestyle Section          | Lifestyle content is displayed correctly, and "Learn More" buttons are functional.                        | Reviewed the lifestyle section           | Lifestyle content displays correctly, and buttons navigate to further information.              | Pass      |
+| Contact Details Section    | Contact details are displayed correctly, and map iframe loads properly.                                   | Reviewed the contact details section     | Contact details and map iframe display correctly.                                               | Pass      |
 
-#### 2.  Hamburger Menu
-- **Test**: Tested the hamburger menu on mobile devices to ensure it opens and closes correctly.
-- **Result**: The hamburger menu opens and closes as expected. The logo text is hidden on small devices, improving the navigation experience.
-
-#### 3. Join Our Community Button
-- **Test**: Clicked the "Join Our Community" button to check if the modal opens.
-- **Result**: The modal opens successfully, allowing users to sign up for the community.
-
-#### 4. Modal Functionality
-- **Test**: Interacted with the modal, including entering an email address and attempting to subscribe.
-- **Result**: The modal functions correctly, capturing the email address and closing properly when the close button is clicked.
-
-#### 5. Downloadable Recipes
-- **Test**: Attempted to download recipes from the recipes page.
-- **Result**: Recipes download correctly, providing users with access to vegan recipes in a convenient format.
-
-#### 6. Contact Form
-- **Test**: Filled out and submitted the contact form to ensure it works.
-- **Result**: The contact form successfully captures user input and submits without errors.
-
-#### 7. Login Button
-- **Test**: Clicked the login button to ensure it responds appropriately.
-- **Result**: The login button is functional, using a modal with and email and password inputs.
-
-#### 8. Page Load Performance
-- **Test**: Measured the page load times on both desktop and mobile devices.
-- **Result**: The website loads quickly, with significant improvements seen after performance optimizations.
-
-#### 9. Accessibility Features
-- **Test**: Used screen readers and keyboard navigation to test accessibility.
-- **Result**: The website is accessible, with proper ARIA labels and keyboard navigability.
-
-#### 10. Image Load Times
-- **Test**: Verified the load times for images across the site.
-- **Result**: Images load efficiently due to optimization (e.g., using WebP format).
-
-#### 11. Footer Links
-- **Test**: Clicked on social media links in the footer to ensure they open in new tabs.
-- **Result**: All social media links open correctly in new tabs.
-
-#### 12. Overall User Experience
-- **Test**: Conducted a general usability test to evaluate the overall user experience.
-- **Result**: The website provides a smooth and intuitive user experience, with all features functioning as intended.
 
 These user tests confirm that the website is fully functional and user-friendly, providing a seamless experience for visitors.
 
