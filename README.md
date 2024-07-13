@@ -67,8 +67,7 @@ As the site owner of Vegan Bliss, my objectives are centered around creating an 
 - **Navigation Bar**: Easy-to-use navigation bar with links to different sections of the site, ensuring smooth navigation.
 - **Hero Section**: Engaging hero section with an attractive background image, compelling title, and a prominent call-to-action 
 - **Join Our Community Button**: Encourages users to subscribe to our mailing list for the latest promotions and updates.
-- **Login Button**: Provides easy access for returning users to log in and manage their profiles or access exclusive content.
-                   
+- **Login Button**: Provides easy access for returning users to log in and manage their profiles or access exclusive content.             
 - **Footer**: Informative footer with social media links, providing additional ways for users to connect.
 
 ### Specific Features
@@ -403,7 +402,6 @@ Continuous testing and user feedback are being gathered to improve and update th
 ### Hamburger Menu Not Closing
 - **Issue**: The hamburger menu was not closing when clicked on mobile devices.
 - **Fix**: Added `data-bs-toggle` and `data-bs-target` attributes correctly to the button element. Updated the Bootstrap classes and ensured that the navigation structure matches Bootstrap's recommended structure for a collapsible navbar.
-  - **Fix**: Updated the Bootstrap classes and JavaScript code to ensure proper functionality.
 
 ### Logo Text Visibility on Small Devices
 - **Issue**: The logo text was cluttering the navbar on small devices.
@@ -446,8 +444,8 @@ Continuous testing and user feedback are being gathered to improve and update th
 - **Fix**: Cleaned up the CSS by removing unused styles and validating with W3C CSS Validation Service. Ensured that all styles are correctly formatted and adhere to CSS standards.
 
 ### Navbar Button Alignment
-**Issue:** The "Login" button was not aligned with the navigation links.
-**Fix:** Added CSS to align the button vertically with the navbar links.
+- **Issue:** The "Login" button was not aligned with the navigation links.
+- **Fix:** Added CSS to align the button vertically with the navbar links.
 
 ```css
 .navbar-nav {
@@ -493,10 +491,10 @@ Continuous testing and user feedback are being gathered to improve and update th
 ```
 
 ### Mailing List Subscription Box on Mobile
-**Issue**: The mailing list subscription box did not have sufficient padding on mobile screens, making it look cramped and less readable.
-**Fix**: Added responsive padding to improve visual appeal and readability.
+- **Issue**: The mailing list subscription box did not have sufficient padding on mobile screens, making it look cramped and less readable.
+- **Fix**: Added responsive padding to improve visual appeal and readability.
  
-### Images adn Text
+### Images and Text
 - **Images**: Properly sized images to reduce load time and improve overall performance on mobile devices.
 - **Text Compression**: Enabled text compression for faster content delivery.
 
@@ -504,9 +502,27 @@ Continuous testing and user feedback are being gathered to improve and update th
 - **Issue**: The Roboto font was not displaying correctly on mobile devices.
 - **Fix**: Ensure the font is properly imported and loaded across all devices.
 
+### Tablet View Layout Issue for featuredrecipies Section
+- **Issue**: On tablet view, the columns in the featuredrecipies section did not display correctly, showing 3 columns instead of 2.
+- **Fix**: Utilized Bootstrap classes to adjust the column layout for medium-sized screens.
+
+(SEE SCREENSHOOTS):
+
+[Tablet view before fix](./assets/readme-screenshoots/tabletview-recipe.png)
+
+[Tablet view after fix](./assets/readme-screenshoots/tabletview-fixedrecipe.png)
+
+
+
 ### Tablet View Layout Issue for Lifestyle Section
-**Issue**: On tablet view, the columns in the lifestyle section did not display correctly, showing 3 columns instead of 2.
-**Fix**: Utilized Bootstrap classes to adjust the column layout for medium-sized screens.
+- **Issue**: On tablet view, the columns in the lifestyle section did not display correctly, showing 3 columns instead of 2.
+- **Fix**: Utilized Bootstrap classes to adjust the column layout for medium-sized screens.
+
+(SEE SCREENSHOOTS):
+
+[Tablet view before fix](./assets/readme-screenshoots/tabletview-lifestyle.png)
+
+[Tablet view after fix](./assets/readme-screenshoots/tabletview-fixedlifestyle.png)
 
 ```<div class="col-md-6 col-lg-4">```
 
@@ -518,15 +534,20 @@ These fixes have improved the overall functionality, accessibility, and performa
 
 ## Credits
 
-### Content
-- The recipes and health information were sourced and adapted from various vegan food blogs and websites.
-- Content generation assistance provided by [Toolbaz](https://www.toolbaz.com).
+### Content and Inspiration
+- **Recipe Ideas and Descriptions**: The recipes and health information were sourced and adapted from various vegan food blogs and websites.
+- **Lifestyle Articles**: Sourced from reputable vegan lifestyle websites and health publications.
+- **Content** generation assistance provided by [Toolbaz](https://www.toolbaz.com).
 
 ### Media
-- Images used in this project were sourced from [Pexels](https://www.pexels.com/), [Pixabay](https://www.pixabay.com/), and [Unsplash](https://www.unsplash.com/).
+- **Images**: used in this project were sourced from [Pexels](https://www.pexels.com/), [Pixabay](https://www.pixabay.com/), and [Unsplash](https://www.unsplash.com/).
+- **Frameworks and Libraries**: Built using [Bootstrap](https://getbootstrap.com/), [Font Awesome](https://fontawesome.com/).
+- **Icons and Graphics**: Icons provided by [Font Awesome](https://fontawesome.com/). Images sourced from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
+- **Fonts**: Fonts used include [Roboto](https://fonts.google.com/specimen/Roboto) and [Open Sans](https://fonts.google.com/specimen/Open+Sans) from Google Fonts.
 
 
 ### Acknowledgements
+- **Educational Resources**: Information and tutorials from [W3Schools](https://www.w3schools.com/), [MDN Web Docs](https://developer.mozilla.org/), and various online courses.
 - **Code Institute**: For the learning platform and guidance throughout the project.
 - **Coolors**: For the color palette generation used in the design.
 - **Font Awesome**: For the icons used in the website.
@@ -537,7 +558,7 @@ These fixes have improved the overall functionality, accessibility, and performa
 
 
 ## Contact Information
-For support or feedback, please contact us at [voicuion488@gmail.com].
+- For support or feedback, please contact us at [voicuion488@gmail.com].
 
 ### Special Thanks
 - Special thanks to my mentor Moritz friends and family for their support and feedback during the development of this project.
