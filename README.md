@@ -94,9 +94,9 @@ As the site owner of Vegan Bliss, my objectives are centered around creating an 
 
 
 ## Structure
-
+The site has 4 main pages + a succes message page:
 ### Nav Bar
-The site has 4 main pages:
+
 - **Navigation**: The navbar includes links to essential sections of the website such as Home, Recipes, Lifestyle, About Us, and Contact Us, ensuring easy and intuitive navigation.
 - **Branding**: Features a distinct logo image and text to reinforce the Vegan Bliss brand identity.
 - **Sticky Design**: The navbar remains fixed at the top of the page while scrolling, providing constant access to navigation links.
@@ -142,6 +142,10 @@ The site has 4 main pages:
 
 For consistency of user experience, the site logo, navigation links, and footer remain consistent throughout the site.
 
+### Success Page
+- **Confirmation Message**: Displays a thank you message after successful form submissions.
+- **Return to Home Button**: Provides a button to navigate back to the home page.
+![Success Page](./assets/readme-screenshoots/succes-page.png)
 
 ## Design
 
@@ -295,7 +299,14 @@ To ensure the website provides an optimal user experience, I conducted thorough 
 - **SEO**: Scored 91, indicating good search engine optimization with room for further improvements.
 
 
+#### 5. Success Page
+[Desktop Lighthouse Test 1](./assets/readme-screenshoots/Destop-test1-success.png)
+- **Performance**: Achieved a score of 92. Subsequent optimizations included improving image load times and minimizing render-blocking resources.
+- **Accessibility**: Scored 96, with efforts to ensure proper ARIA labels and accessible form submission.
+- **Best Practices**: Scored 100, ensuring no browser errors or security vulnerabilities.
+- **SEO**: Scored 91, confirming good search engine optimization practices.
 ### Mobile Performance and Accessibility Test
+
 
 #### 1. Home Page
 [Mobile Lighthouse Test 1](./assets/readme-screenshoots/Mobile%20lighthouse%20test1.png)
@@ -333,6 +344,13 @@ To ensure the website provides an optimal user experience, I conducted thorough 
 - **Best Practices**: Scored 79. Despite improvements, the use of third-party cookies affects the score. The decision was made to keep the iframe maps for their functionality.
 - **SEO**: Scored 91, indicating effective search engine optimization with room for minor improvements.
 
+
+#### 5. Success Page
+[Mobile Lighthouse Test 1](./assets/readme-screenshoots/Mobile-test1-success.png)
+- **Performance**: Achieved a score of 92 on mobile. Enhancements were made to optimize load times and improve responsiveness.
+- **Accessibility**: Scored 96, focusing on mobile accessibility features such as touch targets and readability.
+- **Best Practices**: Scored 100, with attention to mobile-specific best practices like viewport settings.
+- **SEO**: Scored 91, indicating strong mobile SEO performance.
 
 
 ### W3C Validation
