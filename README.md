@@ -188,10 +188,10 @@ Mock-ups were made using Balsamiq and Figma to help plan and visualize the site 
 ## Technologies Used
 
  ### Development Tools
-- **Gitpod**: The online IDE used for developing and running the application in a cloud environment.
-- **Git**: For version control and collaboration.
+- **Gitpod**: Was used to write all the code, commit in terminal and push them into github.
+- **Git**: For version control through the use of terminal to commit and push the changed code in github repository.
 - **VS Code**: Used for writing and testing code locally before pushing it to the remote repository on Gitpod.
-- **GitHub & Git**: Used for version control and hosting the repository.
+- **Github**: Was used for storing the code and access it later for future changes, and used to deploy the project through github pages.
 - **HTML5**: The standard markup language used for creating web pages.
 - **CSS3**: For styling the website and creating responsive designs.
 - **JavaScript**: For adding interactive features and functionality to the website.
@@ -208,6 +208,7 @@ Mock-ups were made using Balsamiq and Figma to help plan and visualize the site 
 - **Color Pallet Generator**: For selecting the website's color scheme.
 - **Unsplash, Pixabay, Pexels**: Sources for high-quality images used throughout the website.
 - **Toolbaz** : For generating content
+- **Resizeimage.net**: Used for resing images
 
 ## Deployment
 
@@ -242,10 +243,102 @@ You can clone your repository to create a local copy on your computer. Any chang
 7. Press Enter to create your local clone.
 
 
-
 ## Testing
 
-### Code Validation
+## Automaded Testing
+
+### Lighthouse 
+
+To ensure the website provides an optimal user experience, I conducted thorough testing using Lighthouse in Chrome Developer Tools. The tests focused on performance, accessibility, best practices, and SEO.
+
+### Desktop Performance and Accessibility Tests
+
+#### 1. Home Page
+[Desktop Lighthouse Test 1](./assets/readme-screenshoots/accesibility-desktop.png)
+
+[Desktop Lighthouse Test 2](./assets/readme-screenshoots/Desktop%20lighthouse%20test.png)
+- **Performance**: Initial test scored 84. Improvements were needed in reducing the Largest Contentful Paint (LCP) and optimizing images.
+- **Accessibility**: Scored 96, similar to the desktop version.
+- **Best Practices**: Scored 100, maintaining web standards.
+- **SEO**: Scored 91, consistent with the desktop version.
+- **Performance**: Achieved a score of 99. Improvements were made by optimizing images, adding width and height attributes, and minifying CSS and JavaScript files.
+- **Accessibility**: Scored 96, with enhancements such as adding aria-labels to links and buttons to improve screen reader compatibility.
+- **Best Practices**: Scored 100, ensuring the site follows web standards and best practices.
+- **SEO**: Scored 91, indicating good search engine optimization but with room for further improvements.
+
+
+#### 2. Recipe Page
+[Desktop Lighthouse Test 1](./assets/readme-screenshoots/desktop-recipe-test1.png)
+
+[Desktop Lighthouse Test 2](./assets/readme-screenshoots/desktop-recipe-test2.png)
+- **Performance**: Initial test scored 84. Improvements were made by reducing the Largest Contentful Paint (LCP) and optimizing images.
+- **Accessibility**: Scored 96, similar to the desktop version.
+- **Best Practices**: Scored 100, maintaining web standards.
+- **SEO**: Scored 91, consistent with the desktop version.
+
+
+#### 3. Lifestyle Page
+[Desktop Lighthouse Test 1](./assets/readme-screenshoots/desktop-lifestyle-test1.png)
+
+[Desktop Lighthouse Test 2](./assets/readme-screenshoots/desktop-lifestyle-test2.png)
+- **Performance**: Achieved a score of 88. Optimizations included reducing image sizes, enabling text compression, and eliminating render-blocking resources.
+- **Accessibility**: Scored 96, with enhancements similar to those applied on other pages.
+- **Best Practices**: Scored 96, ensuring consistent adherence to web standards.
+- **SEO**: Scored 91, indicating good search engine optimization but with room for further improvements.
+
+
+#### 4. Contact Page
+[Desktop Lighthouse Test 1](./assets/readme-screenshoots/desktop-contact-test1.png)
+
+[Desktop Lighthouse Test 2](./assets/readme-screenshoots/desktop-contact-test2.png)
+- **Performance**: Achieved a score of 94. Subsequent optimizations included reducing render-blocking resources and enabling text compression.
+- **Accessibility**: Scored 96, with improvements such as adding aria-labels and ensuring proper form structure.
+- **Best Practices**: Scored 79, with issues related to third-party cookies and browser errors being logged. Efforts were made to address these issues.
+- **SEO**: Scored 91, indicating good search engine optimization with room for further improvements.
+
+
+### Mobile Performance and Accessibility Test
+
+#### 1. Home Page
+[Mobile Lighthouse Test 1](./assets/readme-screenshoots/Mobile%20lighthouse%20test1.png)
+
+[Mobile Lighthouse Test 2](./assets/readme-screenshoots/mobile-test2.png)
+- **Performance**: Subsequent optimizations improved the score to 91. This was achieved by further reducing image sizes, enabling text compression, and eliminating render-blocking resources.
+- **Performance**: Final optimizations resulted in a score of 99. This was done by ensuring all images are properly sized, minifying CSS and JavaScript files, and leveraging browser caching.
+
+
+#### 2. Recipe Page
+[Mobile Lighthouse Test 1](./assets/readme-screenshoots/mobile-recipe-test1.png)
+
+[Mobile Lighthouse Test 2](./assets/readme-screenshoots/mobile-recipe-test2.png)
+- **Performance**: Initial test scored 84. Improvements were made by reducing the Largest Contentful Paint (LCP) and optimizing images.
+- **Accessibility**: Scored 96, similar to the desktop version.
+- **Best Practices**: Scored 100, maintaining web standards.
+- **SEO**: Scored 91, consistent with the desktop version.
+
+
+#### 3. Lifestyle Page
+[Mobile Lighthouse Test 1](./assets/readme-screenshoots/mobile-lifestyle-test1.png)
+
+[Mobile Lighthouse Test 2](./assets/readme-screenshoots/mobile-lifestyle-test2.png)
+- **Performance**: Achieved a score of 88. Optimizations included reducing image sizes, enabling text compression, and eliminating render-blocking resources.
+- **Accessibility**: Scored 96, with enhancements similar to those applied on other pages.
+- **Best Practices**: Scored 96, ensuring consistent adherence to web standards.
+- **SEO**: Scored 91, indicating good search engine optimization but with room for further improvements.
+
+
+#### 4. Contact Page
+[Mobile Lighthouse Test 1](./assets/readme-screenshoots/mobile-contact-test.png)
+
+- **Performance**: Scored 95. Optimizations such as reducing image sizes and eliminating render-blocking resources were applied.
+- **Accessibility**: Scored 96, with improvements such as adding aria-labels and ensuring proper form structure.
+- **Best Practices**: Scored 79. Despite improvements, the use of third-party cookies affects the score. The decision was made to keep the iframe maps for their functionality.
+- **SEO**: Scored 91, indicating effective search engine optimization with room for minor improvements.
+
+
+
+### W3C Validation
+
 - **HTML Validation**: All HTML files were checked and validated using the W3C Markup Validation Service.
 - [index.html validation](./assets/readme-screenshoots/index-html%20validator.png)
 - [featuredrecipe.html validation](./assets/readme-screenshoots/recipe%20validation.png)
@@ -254,195 +347,84 @@ You can clone your repository to create a local copy on your computer. Any chang
 - **CSS Validation**: All CSS files were checked and validated using the W3C CSS Validation Service.
 - [style.css validation](./assets/readme-screenshoots/css%20validation.png)
 
-### Browser Compatibility
-The website was tested across multiple browsers to ensure compatibility and responsiveness:
-- **Google Chrome**
-- **Mozilla Firefox**
-- **Safari**
-- **Microsoft Edge**
 
-### Responsiveness
-The website's responsiveness was tested on various devices and screen sizes:
-- **Desktop**
-- **Tablet**
-- **Mobile**
 
-## User Testing
+## Manual Testing
 
-### Navbar Links
+### User stories Testing
+
+#### 1. Navbar Links
 - **Test**: Clicked on each navbar link to ensure they navigate to the correct sections/pages.
 - **Result**: All navbar links function correctly, directing the user to the appropriate sections or pages.
 
-###  Hamburger Menu
+#### 2.  Hamburger Menu
 - **Test**: Tested the hamburger menu on mobile devices to ensure it opens and closes correctly.
 - **Result**: The hamburger menu opens and closes as expected. The logo text is hidden on small devices, improving the navigation experience.
 
-### Join Our Community Button
+#### 3. Join Our Community Button
 - **Test**: Clicked the "Join Our Community" button to check if the modal opens.
 - **Result**: The modal opens successfully, allowing users to sign up for the community.
 
-### Modal Functionality
+#### 4. Modal Functionality
 - **Test**: Interacted with the modal, including entering an email address and attempting to subscribe.
 - **Result**: The modal functions correctly, capturing the email address and closing properly when the close button is clicked.
 
-### Downloadable Recipes
+#### 5. Downloadable Recipes
 - **Test**: Attempted to download recipes from the recipes page.
 - **Result**: Recipes download correctly, providing users with access to vegan recipes in a convenient format.
 
-### Contact Form
+#### 6. Contact Form
 - **Test**: Filled out and submitted the contact form to ensure it works.
 - **Result**: The contact form successfully captures user input and submits without errors.
 
-### Login Button
+#### 7. Login Button
 - **Test**: Clicked the login button to ensure it responds appropriately.
 - **Result**: The login button is functional, using a modal with and email and password inputs.
 
-### Page Load Performance
+#### 8. Page Load Performance
 - **Test**: Measured the page load times on both desktop and mobile devices.
 - **Result**: The website loads quickly, with significant improvements seen after performance optimizations.
 
-### Accessibility Features
+#### 9. Accessibility Features
 - **Test**: Used screen readers and keyboard navigation to test accessibility.
 - **Result**: The website is accessible, with proper ARIA labels and keyboard navigability.
 
-### Image Load Times
+#### 10. Image Load Times
 - **Test**: Verified the load times for images across the site.
 - **Result**: Images load efficiently due to optimization (e.g., using WebP format).
 
-### Footer Links
+#### 11. Footer Links
 - **Test**: Clicked on social media links in the footer to ensure they open in new tabs.
 - **Result**: All social media links open correctly in new tabs.
 
-### Overall User Experience
+#### 12. Overall User Experience
 - **Test**: Conducted a general usability test to evaluate the overall user experience.
 - **Result**: The website provides a smooth and intuitive user experience, with all features functioning as intended.
 
 These user tests confirm that the website is fully functional and user-friendly, providing a seamless experience for visitors.
 
 
-## Testing
-
-### Performance and Accessibility Testing (Home page)
-
-To ensure the website provides an optimal user experience, I conducted thorough testing using Lighthouse in Chrome Developer Tools. The tests focused on performance, accessibility, best practices, and SEO.
-
-#### Desktop Performance and Accessibility Test
-
-#### Home Page
-![Desktop Lighthouse Test 1](./assets/readme-screenshoots/accesibility-desktop.png)
-
-- **Performance**: Achieved a score of 99. Improvements were made by optimizing images, adding width and height attributes, and minifying CSS and JavaScript files.
-- **Accessibility**: Scored 96, with enhancements such as adding aria-labels to links and buttons to improve screen reader compatibility.
-- **Best Practices**: Scored 100, ensuring the site follows web standards and best practices.
-- **SEO**: Scored 91, indicating good search engine optimization but with room for further improvements.
-
-![Desktop Lighthouse Test 2](./assets/readme-screenshoots/Desktop%20lighthouse%20test.png)
-
-- **Performance**: Initial test scored 84. Improvements were needed in reducing the Largest Contentful Paint (LCP) and optimizing images.
-- **Accessibility**: Scored 96, similar to the desktop version.
-- **Best Practices**: Scored 100, maintaining web standards.
-- **SEO**: Scored 91, consistent with the desktop version.
-
-#### Mobile Performance and Accessibility Test
-
-#### Home Page
-![Mobile Lighthouse Test 1](./assets/readme-screenshoots/Mobile%20lighthouse%20test1.png)
-
-- **Performance**: Subsequent optimizations improved the score to 91. This was achieved by further reducing image sizes, enabling text compression, and eliminating render-blocking resources.
-
-![Mobile Lighthouse Test 2](./assets/readme-screenshoots/mobile-test2.png)
-
-- **Performance**: Final optimizations resulted in a score of 99. This was done by ensuring all images are properly sized, minifying CSS and JavaScript files, and leveraging browser caching.
+### Responsiveness
+The website's responsiveness was tested on various devices and screen sizes:
+- **Desktop**: Asus vivobook, MacBook Pro 14 inch 2021
+- **Tablet**: iMac 2021, ipad mini, ipad air pro, surface pro 7
+- **Mobile**: iPhone 13 Pro, Samsung S20, iphone xr, iphone 14 pro 
+Friends and Family helped testing on various devices and phones.
 
 
-### Performance and Accessibility Testing (Recipe page)
+### Browser Compatibility
 
-#### Desktop Performance and Accessibility Test
-
-#### Recipe Page
-![Desktop Lighthouse Test 1](./assets/readme-screenshoots/desktop-recipe-test1.png)
-![Desktop Lighthouse Test 2](./assets/readme-screenshoots/desktop-recipe-test2.png)
-
-- **Performance**: Initial test scored 84. Improvements were made by reducing the Largest Contentful Paint (LCP) and optimizing images.
-- **Accessibility**: Scored 96, similar to the desktop version.
-- **Best Practices**: Scored 100, maintaining web standards.
-- **SEO**: Scored 91, consistent with the desktop version.
-
-#### Mobile Performance and Accessibility Test
-
-#### Recipe Page
-![Mobile Lighthouse Test 1](./assets/readme-screenshoots/mobile-recipe-test1.png)
-![Mobile Lighthouse Test 2](./assets/readme-screenshoots/mobile-recipe-test2.png)
-
-- **Performance**: Initial test scored 84. Improvements were made by reducing the Largest Contentful Paint (LCP) and optimizing images.
-- **Accessibility**: Scored 96, similar to the desktop version.
-- **Best Practices**: Scored 100, maintaining web standards.
-- **SEO**: Scored 91, consistent with the desktop version.
-
-
-### Performance and Accessibility Testing (Lifestyle page)
-
-#### Desktop Performance and Accessibility Test
-
-#### Lifestyle Page
-![Desktop Lighthouse Test 1](./assets/readme-screenshoots/desktop-lifestyle-test1.png)
-![Desktop Lighthouse Test 2](./assets/readme-screenshoots/desktop-lifestyle-test2.png)
-
-- **Performance**: Achieved a score of 88. Optimizations included reducing image sizes, enabling text compression, and eliminating render-blocking resources.
-- **Accessibility**: Scored 96, with enhancements similar to those applied on other pages.
-- **Best Practices**: Scored 96, ensuring consistent adherence to web standards.
-- **SEO**: Scored 91, indicating good search engine optimization but with room for further improvements.
-
-
-#### Mobile Performance and Accessibility Test
-
-#### Lifestyle Page
-![Mobile Lighthouse Test 1](./assets/readme-screenshoots/mobile-lifestyle-test1.png)
-![Mobile Lighthouse Test 2](./assets/readme-screenshoots/mobile-lifestyle-test2.png)
-
-- **Performance**: Achieved a score of 88. Optimizations included reducing image sizes, enabling text compression, and eliminating render-blocking resources.
-- **Accessibility**: Scored 96, with enhancements similar to those applied on other pages.
-- **Best Practices**: Scored 96, ensuring consistent adherence to web standards.
-- **SEO**: Scored 91, indicating good search engine optimization but with room for further improvements.
-
-
-### Performance and Accessibility Testing (Contact page)
-
-#### Desktop Performance and Accessibility Test
-
-#### Contact Page
-![Desktop Lighthouse Test 1](./assets/readme-screenshoots/desktop-contact-test1.png)
-![Desktop Lighthouse Test 2](./assets/readme-screenshoots/desktop-contact-test2.png)
-
-- **Performance**: Achieved a score of 94. Subsequent optimizations included reducing render-blocking resources and enabling text compression.
-- **Accessibility**: Scored 96, with improvements such as adding aria-labels and ensuring proper form structure.
-- **Best Practices**: Scored 79, with issues related to third-party cookies and browser errors being logged. Efforts were made to address these issues.
-- **SEO**: Scored 91, indicating good search engine optimization with room for further improvements.
-
-#### Mobile Performance and Accessibility Test
-
-#### Contact Page
-![Mobile Lighthouse Test 1](./assets/readme-screenshoots/mobile-contact-test.png)
-
-- **Performance**: Scored 95. Optimizations such as reducing image sizes and eliminating render-blocking resources were applied.
-- **Accessibility**: Scored 96, with improvements such as adding aria-labels and ensuring proper form structure.
-- **Best Practices**: Scored 79. Despite improvements, the use of third-party cookies affects the score. The decision was made to keep the iframe maps for their functionality.
-- **SEO**: Scored 91, indicating effective search engine optimization with room for minor improvements.
-
-
-### Tablet  Performance and Accessibility Test 
-
-### Home page
-![Tablet Lighthouse Test 1](./assets/readme-screenshoots/tablet-test-homepage.png)
-
-- **Performance**: Scored 92. The website performed well with optimized images, text compression, and minified CSS and JavaScript files. Further improvements can be made by addressing the render-blocking resources.
-- **Accessibility**: Achieved a score of 96. Added aria-labels to links and buttons for better screen reader compatibility.
-- **Best Practices**: Perfect score of 100. The site adheres to all recommended web standards and best practices.
-- **SEO**: Scored 91. Good SEO practices are in place, but there is potential for further optimization.
+The website was tested across multiple browsers to ensure compatibility and responsiveness:
+- **Google Chrome**
+- **Mozilla Firefox**
+- **Safari**
+- **Microsoft Edge**
 
 
 ### Ongoing Testing
 Continuous testing and user feedback are being gathered to improve and update the website regularly.
+
+
 
 ## Bugs
 
