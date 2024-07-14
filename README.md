@@ -14,8 +14,18 @@ Explore our curated collection of vegan recipes, learn about the health benefits
 
 ## User Experience (UX)
 
-### Project Goals
+### Project Scope
 The primary goal of Vegan Bliss is to provide users with an engaging platform to discover vegan recipes, learn about the benefits of a vegan diet, and get tips on vegan meal preparation.
+
+### User Demographics
+The primary users of the Vegan Bliss site are individuals interested in adopting a vegan lifestyle. This demographic includes a wide range of ages and backgrounds, from health-conscious individuals to those passionate about animal welfare and environmental sustainability. The site should have a clean, appealing design to attract and retain these users. As they are particularly interested in nutrition and lifestyle, a modern and inviting design is crucial.
+
+### User Requirements
+- **Visually Engaging**: The site should be aesthetically pleasing with vibrant images of vegan dishes and a clean layout.
+- **Easy to Navigate**: The layout should be intuitive, allowing users to easily find recipes, health benefits, and lifestyle tips.
+- **Clear Information Layout**: Information should be presented in a straightforward, easy-to-understand manner.
+- **Responsive Design**: The site must be accessible and fully functional on mobile, tablet, and desktop devices.
+
 
 ### User Stories
 
@@ -367,7 +377,42 @@ To ensure the website provides an optimal user experience, I conducted thorough 
 
 ## Manual Testing
 
-## User Stories Testing
+## Testing User Stories
+
+### General Visitors
+| Feature             | Action                                              | Expected Result                                          | Actual Result         |
+|---------------------|-----------------------------------------------------|----------------------------------------------------------|-----------------------|
+| Navigation Links    | Navigate through different sections of the website  | Sections load correctly and navigation is smooth         | Works as expected     |
+| Recipes Page        | Navigate to the recipes page                        | Displays a variety of easy-to-make vegan recipes          | Works as expected     |
+| Health Tips Section | Navigate to the health tips section                 | Learn about the health benefits of a vegan diet          | Works as expected     |
+| Meal Prep Tips      | Navigate to the meal prep tips section              | Provides tips on how to prepare vegan meals efficiently   | Works as expected     |
+
+### First Time Visitor Goals
+| Feature             | Action                                              | Expected Result                                          | Actual Result         |
+|---------------------|-----------------------------------------------------|----------------------------------------------------------|-----------------------|
+| Home Page           | View the home page                                  | Understand the main purpose and benefits of a vegan lifestyle | Works as expected |
+| Navigation Links    | Use navigation links to explore the site            | Easily find content on vegan recipes and health tips      | Works as expected     |
+| Meal Prep Tips      | View the meal prep tips section                     | Find detailed information about vegan meal prep tips      | Works as expected     |
+
+### Returning Visitor Goals
+| Feature             | Action                                              | Expected Result                                          | Actual Result         |
+|---------------------|-----------------------------------------------------|----------------------------------------------------------|-----------------------|
+| Contact Us Page     | Navigate to the contact page                        | Easily access the contact form                           | Works as expected     |
+| Recipes Page        | Navigate to the recipes page                        | Easily download vegan recipes                            | Works as expected     |
+| Social Media Links  | Click on social media links in the footer           | Opens social media pages in new tabs                     | Works as expected     |
+
+### Frequent User Goals
+| Feature             | Action                                              | Expected Result                                          | Actual Result         |
+|---------------------|-----------------------------------------------------|----------------------------------------------------------|-----------------------|
+| Mobile Accessibility| Access the site from a mobile device                | Site is responsive and easy to navigate on mobile        | Works as expected     |
+| Social Media Follow | Use social media links to follow Vegan Bliss        | Easily follow the business on social media               | Works as expected     |
+| New Recipes Section | Check the new recipes section                       | Quickly access new and updated recipes                   | Works as expected     |
+
+- **This table outlines the testing for each user story, including the feature being tested, the action taken, the expected result, and the actual result.**
+
+
+
+## User Testing
 
 | Feature                    | Expected Outcome                                                                                          | Testing Performed                         | Result                                                                                          | Pass/Fail |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------|-------------------------------------------------------------------------------------------------|-----------|
@@ -392,7 +437,7 @@ To ensure the website provides an optimal user experience, I conducted thorough 
 | Contact Details Section    | Contact details are displayed correctly, and map iframe loads properly.                                   | Reviewed the contact details section     | Contact details and map iframe display correctly.                                               | Pass      |
 
 
-These user tests confirm that the website is fully functional and user-friendly, providing a seamless experience for visitors.
+- **These user tests confirm that the website is fully functional and user-friendly, providing a seamless experience for visitors.**
 
 
 ### Responsiveness
@@ -400,6 +445,7 @@ The website's responsiveness was tested on various devices and screen sizes:
 - **Desktop**: Asus vivobook, MacBook Pro 14 inch 2021
 - **Tablet**: iMac 2021, ipad mini, ipad air pro, surface pro 7
 - **Mobile**: iPhone 13 Pro, Samsung S20, iphone xr, iphone 14 pro 
+
 Friends and Family helped testing on various devices and phones.
 
 
